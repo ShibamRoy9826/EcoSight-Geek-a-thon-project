@@ -8,22 +8,50 @@
 body {
   font-family: montserrat;
   height: 100svh;
-  background-image: url("src/forest.jpg");
+  background-image: url("src/forest.jpg"); 
+  /* background-color: #0a680b; */
   background-size: cover;
   background-repeat: no-repeat;
+  overflow-x: hidden;
 }
 header {
-  position: absolute;
+  position: fixed;
   width: 100%;
   min-height: 50px;
   background-color: #3427f200;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 999;
+  transition: all 500ms cubic-bezier(0.13, 0.32, 0.22, 0.71);
+}
+
+.nav_blur {
+  height: 50px;
+  width: 100%;
+  position: inherit;
+  background-color: rgba(0, 0, 0, 0.16);
+  backdrop-filter: blur(2px);
+  border-bottom: 2px solid #86f388c5;
+  z-index: -1;
+  padding: 0;
+  margin: 0;
+}
+
+.Containerblur {
+  height: 100%;
+  width: 100%;
+  position: inherit;
+  background-color: rgba(0, 0, 0, 0.16);
+  backdrop-filter: blur(2px);
+  border-bottom: 2px solid #86f388c5;
+  z-index: -1;
+  padding: 0;
+  margin: 0;
 }
 
 header .logo {
-  font-family: "Great Vibes", sans-serif;
+  font-family: "Poppins" sans-serif;
   white-space: nowrap;
   padding-left: 50px;
   color: #ccd8df;
@@ -42,6 +70,7 @@ header ul li {
   position: relative;
   list-style: none;
   float: left;
+  /* border-left: 1px solid #1ed52184; */
 }
 
 header ul li a {
@@ -54,13 +83,32 @@ header ul li a {
   justify-content: space-between;
 }
 
-header ul li a:hover {
-  transform: translateX(1.2px) translateY(1.2px);
-  transition: all 0.2s ease;
-  color: #86d7f3;
+header ul li ul {
+  position: absolute;
+  left: 0;
+  top: relative;
+  width: 150px;
+  background: #ffffff00;
+  border-radius: 7px;
+  padding: 0;
+  border: 3px solid #86f388c5;
+  border-top-color: #efefef00;
+  border-radius: 0;
+  z-index: 1;
+  display: none;
 }
 
-@media (max-width: 960px) {
+header ul li a:hover {
+  /*  transform: translateX(1.2px) translateY(1.2px);*/
+  transition: all 0.2s ease;
+  color: #86f388;
+}
+
+header ul li:hover ul {
+  display: block;
+}
+
+@media (max-width: 880px) {
   header {
     padding: 0;
     margin: 0;
@@ -208,6 +256,8 @@ header ul li a:hover {
   color: floralwhite;
   padding-bottom: 40px;
   text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 .containerH1 {
   padding-bottom: 40px;
@@ -221,4 +271,33 @@ header ul li a:hover {
   font-family: sans-serif;
   color: floralwhite;
   text-align: center;
+}
+
+.body2 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 100%;
+  background-image: url("src/whitebackground2.jpg");
+  /* background-color: #065908; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.body2headerbox {
+  top: 5%;
+  left: 5%;
+  height: 25%;
+  padding-right: 20%;
+  position: relative;
+}
+
+.boxcontainer {
+  height: 75%;
+  width: 100%;
+  /* background-color: green; */
+  display: grid;
 }
