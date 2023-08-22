@@ -8,12 +8,29 @@
 body {
   font-family: montserrat;
   height: 100svh;
-  background-image: url("src/forest.jpg"); 
-  /* background-color: #0a680b; */
+ background-image: url("src/forest.jpg");
+/*    background-color: #0a680b;  */
   background-size: cover;
   background-repeat: no-repeat;
   overflow-x: hidden;
 }
+
+#loader {
+  height: 100vh;
+  width: 100vw;
+  background-color: #262626;
+  display: block;
+  position: absolute;
+  z-index: 100000;
+}
+
+#loader img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
 header {
   position: fixed;
   width: 100%;
@@ -156,6 +173,11 @@ header ul li:hover ul {
     top: 0;
   }
 
+
+  header ul li ul a{
+    background-color: rgba(27, 157, 75, 0.35);
+  }
+
   header nav ul li {
     border-width: 2px;
     width: 100%;
@@ -278,8 +300,8 @@ header ul li:hover ul {
   width: 100%;
   position: absolute;
   top: 100%;
-  background-image: url("src/whitebackground2.jpg");
-  /* background-color: #065908; */
+ background-image: url("src/whitebackground2.jpg");
+/*background-color: #065908;  */
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
