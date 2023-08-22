@@ -35,15 +35,15 @@ This is a repository of us 2 team members on this great hackathon organised by G
 
 <ul>
     <li>
-        <strong>Data Analyst :</strong> Shibam Roy - A passionate and skilled Data Analyst with a profound love for
+        <strong>Data Analyst/Collection/Backend :</strong> Shibam Roy - A passionate and skilled Data Analyst with a profound love for
         coding. His extensive knowledge of various programming languages and frameworks enables him to undertake complex
         data analysis projects. From childhood, Shibam has been dedicated to coding, resulting in an impressive
-        portfolio of remarkable projects. His analytical mindset, creativity, and effective communication make him a
-        valuable asset to any data-driven team.
+        portfolio of remarkable projects. He has knowledge in C++ , Python, Data Science, and DSA. His analytical mindset, creativity, and effective communication make him a
+        valuable asset to any data-driven team. 
     </li>
     <br>
     <li>
-        <strong>Data Extractor:</strong> Swadhin Maharana is a proficient Data Extractor and Full Stack Developer with a focus on Python, MySQL, and JavaScript. His exceptional abilities lie in extracting and managing data for various projects, a skill set that greatly contributed to the success of our endeavor. Using his expertise in Pygame, Django, and Flask, Swadhin has not only created multifunctional games and web apps but also played a crucial role in fetching and integrating real-time data.
+        <strong>Front-end developer:</strong> Ankush roy - an integral member of the our team, known for his exceptional front-end development skills, mathematical acumen, and mastery of C++. His artistic eye elevates user experiences, while his passion for mathematics enriches data insights. With a strong grasp of C++, Ankush seamlessly integrates backend functionalities. His adaptability and innovation align seamlessly with our mission to fuse data science and web development for transformative solutions.
     </li>
    
 </ul>
