@@ -9,7 +9,7 @@
             <a href="#meet_the_team">Meet The Team</a>
         </li>
         <li>
-            <a href="#echotech-analysis">Echotech Environment Sustainability Analysis</a>
+            <a href="#echotech-analysis">Ecotech Environment Sustainability Analysis</a>
         </li>
         <ul>
             <li><a href="#project-overview">Project Overview</a></li>
@@ -50,7 +50,7 @@ This is a repository of us 2 team members on this great hackathon organised by G
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br>
 
 <h1 id="echotech-analysis">
-    <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"><b> Olympic Medals Analysis </b>
+    <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"><b>Ecotech Environment Sustainability Analysis </b>
 </h1>
 
 ## Project Overview
