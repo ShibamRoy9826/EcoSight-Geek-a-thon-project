@@ -1,0 +1,412 @@
+,country,major_power_source
+0,Afghanistan,"Hydropower 
+"
+1,Albania,"Hydropower 
+"
+2,Algeria,"Gas
+"
+3,American Samoa,"Oil
+"
+4,Angola,"Hydropower 
+"
+5,Antigua and Barbuda,"Oil
+"
+6,Argentina,"Gas
+"
+7,Armenia,"Gas
+"
+8,Aruba,"Oil
+"
+9,Australia,"Coal
+"
+10,Austria,"Hydropower 
+"
+11,Azerbaijan,"Gas
+"
+12,Bahamas,"Oil
+"
+13,Bahrain,"Gas
+"
+14,Bangladesh,"Gas
+"
+15,Barbados,"Oil
+"
+16,Belarus,"Gas
+"
+17,Belgium,"Nuclear
+"
+18,Belize,"Hydropower 
+"
+19,Benin,"Gas
+"
+20,Bermuda,"Oil
+"
+21,Bhutan,"Hydropower 
+"
+22,Bolivia,"Gas
+"
+23,Bosnia and Herzegovina,"Coal
+"
+24,Botswana,"Coal
+"
+25,Brazil,"Hydropower 
+"
+26,British Virgin Islands,"Oil
+"
+27,Brunei,"Gas
+"
+28,Bulgaria,"Nuclear
+"
+29,Burkina Faso,"Oil
+"
+30,Burundi,"Hydropower 
+"
+31,Cambodia,"Hydropower 
+"
+32,Cameroon,"Hydropower 
+"
+33,Canada,"Hydropower 
+"
+34,Cayman Islands,"Oil
+"
+35,Central African Republic,"Hydropower 
+"
+36,Chad,"Oil
+"
+37,Chile,"Hydropower 
+"
+38,China,"Coal
+"
+39,Colombia,"Hydropower 
+"
+40,Comoros,"Oil
+"
+41,Congo,"Gas
+"
+42,Cook Islands,"Oil
+"
+43,Costa Rica,"Hydropower 
+"
+44,Croatia,"Hydropower 
+"
+45,Cuba,"Oil
+"
+46,Cyprus,"Oil
+"
+47,Czechia,"Coal
+"
+48,Democratic Republic of Congo,"Hydropower 
+"
+49,Denmark,"Wind
+"
+50,Djibouti,"Oil
+"
+51,Dominica,"Oil
+"
+52,Dominican Republic,"Oil
+"
+53,Ecuador,"Hydropower 
+"
+54,Egypt,"Gas
+"
+55,El Salvador,"Other Renewable Resource
+"
+56,Equatorial Guinea,"Gas
+"
+57,Eritrea,"Oil
+"
+58,Estonia,"Oil
+"
+59,Ethiopia,"Hydropower 
+"
+60,Falkland Islands,"Oil
+"
+61,Fiji,"Hydropower 
+"
+62,Finland,"Nuclear
+"
+63,France,"Nuclear
+"
+64,French Guiana,"Hydropower 
+"
+65,French Polynesia,"Oil
+"
+66,Gabon,"Gas
+"
+67,Gambia,"Oil
+"
+68,Georgia,"Hydropower 
+"
+69,Germany,"Wind
+"
+70,Ghana,"Gas
+"
+71,Gibraltar,"Oil
+"
+72,Greece,"Gas
+"
+73,Greenland,"Hydropower 
+"
+74,Grenada,"Oil
+"
+75,Guadeloupe,"Oil
+"
+76,Guam,"Oil
+"
+77,Guatemala,"Hydropower 
+"
+78,Guinea,"Oil
+"
+79,Guinea-Bissau,"Oil
+"
+80,Guyana,"Oil
+"
+81,Haiti,"Oil
+"
+82,Honduras,"Hydropower 
+"
+83,Hong Kong,"Oil
+"
+84,Hungary,"Nuclear
+"
+85,Iceland,"Hydropower 
+"
+86,India,"Coal
+"
+87,Indonesia,"Coal
+"
+88,Iran,"Gas
+"
+89,Iraq,"Gas
+"
+90,Ireland,"Gas
+"
+91,Israel,"Gas
+"
+92,Italy,"Gas
+"
+93,Jamaica,"Oil
+"
+94,Japan,"Gas
+"
+95,Jordan,"Gas
+"
+96,Kazakhstan,"Coal
+"
+97,Kenya,"Other Renewable Resource
+"
+98,Kiribati,"Oil
+"
+99,Kuwait,"Gas
+"
+100,Kyrgyzstan,"Hydropower 
+"
+101,Laos,"Hydropower 
+"
+102,Latvia,"Hydropower
+"
+103,Lebanon,"Oil
+"
+104,Lesotho,"Hydropower 
+"
+105,Liberia,"Oil
+"
+106,Libya,"Gas
+"
+107,Lithuania,"Gas
+"
+108,Luxembourg,"Wind
+"
+109,Madagascar,"Hydropower 
+"
+110,Malawi,"Hydropower 
+"
+111,Malaysia,"Coal
+"
+112,Maldives,"Oil
+"
+113,Mali,"Oil
+"
+114,Malta,"Gas
+"
+115,Martinique,"Oil
+"
+116,Mauritania,"Oil
+"
+117,Mauritius,"Oil
+"
+118,Mexico,"Gas
+"
+119,Moldova,"Coal
+"
+120,Mongolia,"Coal
+"
+121,Montenegro,"Hydropower 
+"
+122,Montserrat,"Oil
+"
+123,Morocco,"Coal
+"
+124,Mozambique,"Hydropower 
+"
+125,Namibia,"Hydropower 
+"
+126,Nauru,"Oil
+"
+127,Nepal,"Hydropower 
+"
+128,Netherlands,"Gas
+"
+129,New Caledonia,"Oil
+"
+130,New Zealand,"Hydropower 
+"
+131,Nicaragua,"Other Renewable Resource
+"
+132,Niger,"Oil
+"
+133,Nigeria,"Gas
+"
+134,Niue,"Oil
+"
+135,North Korea,"Hydropower 
+"
+136,North Macedonia,"Hydropower 
+"
+137,Norway,"Hydropower 
+"
+138,Oman,"Gas
+"
+139,Pakistan,"Hydropower 
+"
+140,Palestine,"Oil
+"
+141,Panama,"Hydropower 
+"
+142,Papua New Guinea,"Oil
+"
+143,Paraguay,"Hydropower 
+"
+144,Peru,"Hydropower 
+"
+145,Philippines,"Coal
+"
+146,Poland,"Coal
+"
+147,Portugal,"Gas
+"
+148,Puerto Rico,"Oil
+"
+149,Qatar,"Gas
+"
+150,Reunion,"Oil
+"
+151,Romania,"Hydropower 
+"
+152,Russia,"Gas
+"
+153,Rwanda,"Hydropower 
+"
+154,Saint Helena,"Oil
+"
+155,Saint Kitts and Nevis,"Oil
+"
+156,Saint Lucia,"Oil
+"
+157,Saint Pierre and Miquelon,"Oil
+"
+158,Saint Vincent and the Grenadines,"Oil
+"
+159,Samoa,"Oil
+"
+160,Sao Tome and Principe,"Oil
+"
+161,Saudi Arabia,"Gas
+"
+162,Senegal,"Oil
+"
+163,Serbia,"Coal
+"
+164,Seychelles,"Oil
+"
+165,Sierra Leone,"Hydropower 
+"
+166,Singapore,"Gas
+"
+167,Slovakia,"Nuclear
+"
+168,Slovenia,"Nuclear
+"
+169,Solomon Islands,"Oil
+"
+170,Somalia,"Oil
+"
+171,South Africa,"Coal
+"
+172,South Korea,"Coal
+"
+173,South Sudan,"Oil
+"
+174,Spain,"Gas
+"
+175,Sri Lanka,"Hydropower 
+"
+176,Sudan,"Hydropower 
+"
+177,Suriname,"Hydropower 
+"
+178,Sweden,"Hydropower
+"
+179,Switzerland,"Hydropower 
+"
+180,Syria,"Oil
+"
+181,Taiwan,"Coal
+"
+182,Tajikistan,"Hydropower 
+"
+183,Tanzania,"Gas
+"
+184,Thailand,"Gas
+"
+185,Togo,"Oil
+"
+186,Tonga,"Oil
+"
+187,Trinidad and Tobago,"Gas
+"
+188,Tunisia,"Gas
+"
+189,Turkey,"Coal
+"
+190,Turkmenistan,"Oil
+"
+191,Turks and Caicos Islands,"Oil
+"
+192,Uganda,"Hydropower 
+"
+193,Ukraine,"Nuclear
+"
+194,United Arab Emirates,"Gas
+"
+195,United Kingdom,"Gas
+"
+196,United States,"Gas
+"
+197,United States Virgin Islands,"Oil
+"
+198,Uruguay,"Wind
+"
+199,Uzbekistan,"Gas
+"
+200,Vanuatu,"Oil
+"
+201,Venezuela,"Hydropower
+"
+202,Vietnam,"Coal
+"
+203,Yemen,"Oil
+"
+204,Zambia,"Hydropower
+"
+205,Zimbabwe,Hydropower

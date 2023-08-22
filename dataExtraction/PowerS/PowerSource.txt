@@ -1,0 +1,411 @@
+Afghanistan: Hydropower 
+
+Albania: Hydropower 
+
+Algeria: Gas
+
+American Samoa: Oil
+
+Angola: Hydropower 
+
+Antigua and Barbuda: Oil
+
+Argentina: Gas
+
+Armenia: Gas
+
+Aruba: Oil
+
+Australia: Coal
+
+Austria: Hydropower 
+
+Azerbaijan: Gas
+
+Bahamas: Oil
+
+Bahrain: Gas
+
+Bangladesh: Gas
+
+Barbados: Oil
+
+Belarus: Gas
+
+Belgium: Nuclear
+
+Belize: Hydropower 
+
+Benin: Gas
+
+Bermuda: Oil
+
+Bhutan: Hydropower 
+
+Bolivia: Gas
+
+Bosnia and Herzegovina: Coal
+
+Botswana: Coal
+
+Brazil: Hydropower 
+
+British Virgin Islands: Oil
+
+Brunei: Gas
+
+Bulgaria: Nuclear
+
+Burkina Faso: Oil
+
+Burundi: Hydropower 
+
+Cambodia: Hydropower 
+
+Cameroon: Hydropower 
+
+Canada: Hydropower 
+
+Cayman Islands: Oil
+
+Central African Republic: Hydropower 
+
+Chad: Oil
+
+Chile: Hydropower 
+
+China: Coal
+
+Colombia: Hydropower 
+
+Comoros: Oil
+
+Congo: Gas
+
+Cook Islands: Oil
+
+Costa Rica: Hydropower 
+
+Croatia: Hydropower 
+
+Cuba: Oil
+
+Cyprus: Oil
+
+Czechia: Coal
+
+Democratic Republic of Congo: Hydropower 
+
+Denmark: Wind
+
+Djibouti: Oil
+
+Dominica: Oil
+
+Dominican Republic: Oil
+
+Ecuador: Hydropower 
+
+Egypt: Gas
+
+El Salvador: Other Renewable Resource
+
+Equatorial Guinea: Gas
+
+Eritrea: Oil
+
+Estonia: Oil
+
+Ethiopia: Hydropower 
+
+Falkland Islands: Oil
+
+Fiji: Hydropower 
+
+Finland: Nuclear
+
+France: Nuclear
+
+French Guiana: Hydropower 
+
+French Polynesia: Oil
+
+Gabon: Gas
+
+Gambia: Oil
+
+Georgia: Hydropower 
+
+Germany: Wind
+
+Ghana: Gas
+
+Gibraltar: Oil
+
+Greece: Gas
+
+Greenland: Hydropower 
+
+Grenada: Oil
+
+Guadeloupe: Oil
+
+Guam: Oil
+
+Guatemala: Hydropower 
+
+Guinea: Oil
+
+Guinea-Bissau: Oil
+
+Guyana: Oil
+
+Haiti: Oil
+
+Honduras: Hydropower 
+
+Hong Kong: Oil
+
+Hungary: Nuclear
+
+Iceland: Hydropower 
+
+India: Coal
+
+Indonesia: Coal
+
+Iran: Gas
+
+Iraq: Gas
+
+Ireland: Gas
+
+Israel: Gas
+
+Italy: Gas
+
+Jamaica: Oil
+
+Japan: Gas
+
+Jordan: Gas
+
+Kazakhstan: Coal
+
+Kenya: Other Renewable Resource
+
+Kiribati: Oil
+
+Kuwait: Gas
+
+Kyrgyzstan: Hydropower 
+
+Laos: Hydropower 
+
+Latvia: Hydropower
+
+Lebanon: Oil
+
+Lesotho: Hydropower 
+
+Liberia: Oil
+
+Libya: Gas
+
+Lithuania: Gas
+
+Luxembourg: Wind
+
+Madagascar: Hydropower 
+
+Malawi: Hydropower 
+
+Malaysia: Coal
+
+Maldives: Oil
+
+Mali: Oil
+
+Malta: Gas
+
+Martinique: Oil
+
+Mauritania: Oil
+
+Mauritius: Oil
+
+Mexico: Gas
+
+Moldova: Coal
+
+Mongolia: Coal
+
+Montenegro: Hydropower 
+
+Montserrat: Oil
+
+Morocco: Coal
+
+Mozambique: Hydropower 
+
+Namibia: Hydropower 
+
+Nauru: Oil
+
+Nepal: Hydropower 
+
+Netherlands: Gas
+
+New Caledonia: Oil
+
+New Zealand: Hydropower 
+
+Nicaragua: Other Renewable Resource
+
+Niger: Oil
+
+Nigeria: Gas
+
+Niue: Oil
+
+North Korea: Hydropower 
+
+North Macedonia: Hydropower 
+
+Norway: Hydropower 
+
+Oman: Gas
+
+Pakistan: Hydropower 
+
+Palestine: Oil
+
+Panama: Hydropower 
+
+Papua New Guinea: Oil
+
+Paraguay: Hydropower 
+
+Peru: Hydropower 
+
+Philippines: Coal
+
+Poland: Coal
+
+Portugal: Gas
+
+Puerto Rico: Oil
+
+Qatar: Gas
+
+Reunion: Oil
+
+Romania: Hydropower 
+
+Russia: Gas
+
+Rwanda: Hydropower 
+
+Saint Helena: Oil
+
+Saint Kitts and Nevis: Oil
+
+Saint Lucia: Oil
+
+Saint Pierre and Miquelon: Oil
+
+Saint Vincent and the Grenadines: Oil
+
+Samoa: Oil
+
+Sao Tome and Principe: Oil
+
+Saudi Arabia: Gas
+
+Senegal: Oil
+
+Serbia: Coal
+
+Seychelles: Oil
+
+Sierra Leone: Hydropower 
+
+Singapore: Gas
+
+Slovakia: Nuclear
+
+Slovenia: Nuclear
+
+Solomon Islands: Oil
+
+Somalia: Oil
+
+South Africa: Coal
+
+South Korea: Coal
+
+South Sudan: Oil
+
+Spain: Gas
+
+Sri Lanka: Hydropower 
+
+Sudan: Hydropower 
+
+Suriname: Hydropower 
+
+Sweden: Hydropower
+
+Switzerland: Hydropower 
+
+Syria: Oil
+
+Taiwan: Coal
+
+Tajikistan: Hydropower 
+
+Tanzania: Gas
+
+Thailand: Gas
+
+Togo: Oil
+
+Tonga: Oil
+
+Trinidad and Tobago: Gas
+
+Tunisia: Gas
+
+Turkey: Coal
+
+Turkmenistan: Oil
+
+Turks and Caicos Islands: Oil
+
+Uganda: Hydropower 
+
+Ukraine: Nuclear
+
+United Arab Emirates: Gas
+
+United Kingdom: Gas
+
+United States: Gas
+
+United States Virgin Islands: Oil
+
+Uruguay: Wind
+
+Uzbekistan: Gas
+
+Vanuatu: Oil
+
+Venezuela: Hydropower
+
+Vietnam: Coal
+
+Yemen: Oil
+
+Zambia: Hydropower
+
+Zimbabwe: Hydropower
