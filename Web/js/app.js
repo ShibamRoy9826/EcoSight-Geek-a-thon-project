@@ -1,9 +1,11 @@
-let menuToggle = document.querySelector(".menuToggle");
+//main header
 let header = document.querySelector("header");
 
-menuToggle.onclick = function () {
+var hamburger = document.querySelector(".hamburger");
+hamburger.addEventListener("click", function () {
+  hamburger.classList.toggle("is-active");
   header.classList.toggle("active");
-};
+});
 
 //nav on scroll
 let lastScrollTop = window.pageYOffset || document.documentElement.scrollTop;
