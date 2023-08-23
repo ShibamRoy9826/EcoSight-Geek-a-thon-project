@@ -8,8 +8,8 @@
 body {
   font-family: montserrat;
   height: 100svh;
- background-image: url("src/forest.jpg");
-/*    background-color: #0a680b;  */
+  background-image: url("src/forest.jpg");
+  /* background-color: #0a680b; */
   background-size: cover;
   background-repeat: no-repeat;
   overflow-x: hidden;
@@ -124,6 +124,51 @@ header ul li:hover ul {
   display: block;
 }
 
+.hamburger {
+  display: none;
+}
+
+nav li::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 100%;
+  background-color: aqua;
+
+  translate: var(--_translate, 0);
+  scale: var(--_width, 0) 1;
+  transition: scale 300ms var(--_scale-delay, 0ms),
+    translate 500ms var(--_translate-delay, 0ms);
+}
+nav li ul li::after {
+  all: unset;
+}
+
+nav li:hover,
+nav li:focus-within {
+  --_width: 1;
+}
+
+nav li.active {
+  --_width: 1;
+}
+
+@supports selector(:has(h1)) {
+  nav li:hover + li {
+    --_translate: -100%;
+    --_scale-delay: 300ms;
+    --_translate-delay: 200ms;
+  }
+
+  nav li:has(+ :hover) {
+    --_translate: 100%;
+    --_scale-delay: 300ms;
+    --_translate-delay: 200ms;
+  }
+}
+
 @media (max-width: 880px) {
   header {
     padding: 0;
@@ -167,13 +212,16 @@ header ul li:hover ul {
     padding: 0;
   }
 
+  nav li::after {
+    all: unset;
+  }
+
   header ul li ul {
     width: 100%;
     top: 0;
   }
 
-
-  header ul li ul a{
+  header ul li ul a {
     background-color: rgba(27, 157, 75, 0.35);
   }
 
@@ -188,62 +236,25 @@ header ul li:hover ul {
     width: 100%;
   }
 
-  .menuToggle {
-    padding-right: 30px;
-    position: relative;
-    width: 70px;
-    height: 50px;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .menuToggle::before {
-    content: "";
-    position: absolute;
-    width: 62.5%;
-    height: 3px;
-    background: #fff;
-    transform: translateY(-12px);
-    box-shadow: 0 12px #fff;
-    transition-duration: 0.5s;
-  }
-
-  .menuToggle::after {
-    content: "";
-    position: absolute;
-    width: 62.5%;
-    height: 3px;
-    background: #fff;
-    transform: translateY(12px);
-    transition-duration: 0.5s;
-  }
-
-  header.active nav {
+  .hamburger {
     display: block;
   }
-
-  header.active .menuToggle::before {
-    transform: rotate(45deg);
-    box-shadow: 0 0 #fff;
-  }
-
-  header.active .menuToggle::after {
-    transform: rotate(315deg);
+  header.active nav {
+    display: block;
   }
 }
 
 @media (max-width: 400px) {
-  main {
-    height: 100svh;
-  }
-
   header .logo {
     padding: 5px;
   }
 }
 /* The header ends here */
+
+.mainBody {
+  display: flex;
+  flex-direction: column;
+}
 
 .container {
   position: absolute;
@@ -284,7 +295,7 @@ header ul li:hover ul {
   padding-bottom: 40px;
   font-family: sans-serif;
   color: floralwhite;
-  font-size: 3.5em;
+  font-size: 3.5rem;
   text-align: center;
 }
 
@@ -294,31 +305,41 @@ header ul li:hover ul {
   text-align: center;
 }
 
-.body2 {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 100%;
- background-image: url("src/whitebackground2.jpg");
-/*    background-color: #065908;  */
-  background-size: cover;
-  background-repeat: no-repeat;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
-.body2headerbox {
-  top: 5%;
-  left: 5%;
-  height: 25%;
-  padding-right: 20%;
-  position: relative;
+@media (max-width: 500px) {
+  .containerH1 {
+    font-size: 2rem;
+  }
+  .container {
+    height: 80%;
+    width: 80%;
+  }
 }
 
 .boxcontainer {
-  height: 75%;
+  position: absolute;
+  height: 100%;
   width: 100%;
-  /* background-color: green; */
+  top: 100%;
+  background-image: url("src/whitebackground2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+}
+.boxa {
+  grid-area: 2 / 2 / 4 / 5;
+  background-color: blue;
+}
+.boxb {
+  grid-area: 2 / 6 / 4 / 9;
+  background-color: blue;
+}
+.boxc {
+  grid-area: 5 / 2 / 7 / 5;
+  background-color: blue;
+}
+.boxd {
+  grid-area: 5 / 6 / 7 / 9;
+  background-color: blue;
 }
