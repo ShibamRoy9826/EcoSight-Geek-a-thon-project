@@ -30,6 +30,13 @@ body {
   transform: translateY(-50%) translateX(-50%);
 }
 
+.dot-elastic{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
 header {
   position: fixed;
   width: 100%;
