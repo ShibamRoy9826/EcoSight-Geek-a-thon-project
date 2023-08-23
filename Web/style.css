@@ -18,7 +18,7 @@ body {
 #loader {
   height: 100vh;
   width: 100vw;
-  background-color: #262626;
+  background-image: linear-gradient(to top, #012305, #004914, #00721e, #009d24, #18cb26);
   position: fixed;
   z-index: 100000;
 }
