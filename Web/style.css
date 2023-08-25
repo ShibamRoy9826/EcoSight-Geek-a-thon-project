@@ -9,7 +9,7 @@ body {
   font-family: montserrat;
   height: 100svh;
   background-image: url("src/forest.jpg");
-  /* background-color: #0a680b; */
+/*   background-color: #0a680b; */
   background-size: cover;
   background-repeat: no-repeat;
   overflow-x: hidden;
@@ -51,18 +51,6 @@ header {
 
 .nav_blur {
   height: 50px;
-  width: 100%;
-  position: inherit;
-  background-color: rgba(0, 0, 0, 0.16);
-  backdrop-filter: blur(2px);
-  border-bottom: 2px solid #86f388c5;
-  z-index: -1;
-  padding: 0;
-  margin: 0;
-}
-
-.Containerblur {
-  height: 100%;
   width: 100%;
   position: inherit;
   background-color: rgba(0, 0, 0, 0.16);
@@ -133,6 +121,7 @@ header ul li:hover ul {
 
 .hamburger {
   display: none;
+  overflow: hidden;
 }
 
 nav li::after {
@@ -268,7 +257,7 @@ nav li.active {
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
-  height: 60%;
+  height: 450px;
   width: 60%;
   border: 4px solid floralwhite;
   background-color: #01f32506;
@@ -277,6 +266,90 @@ nav li.active {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+
+.Containerblur {
+  height: 100%;
+  width: 100%;
+  position: inherit;
+  background-color: rgba(0, 0, 0, 0.16);
+  backdrop-filter: blur(2px);
+  border-bottom: 2px solid #86f388c5;
+  z-index: -1;
+  padding: 0;
+  margin: 0;
+}
+
+
+.contained {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  background-color: #7af294e3;
+}
+
+.contained a img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #abd5b600;
+  filter: invert(1);
+}
+
+.contained a:nth-child(1) img {
+  right: 100%;
+}
+.contained a:nth-child(2) img {
+  left: 100%;
+}
+
+.slidercontainer {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.ss {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s ease-in;
+}
+
+.slider1 {
+  background-color: #f56b6b;
+  background-image: url("src/LeftArrow.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.slider2 {
+  background-color: #d34a4a;
+  background-image: url("src/LeftArrow.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.slider3 {
+  background-color: #c33b3b;
+  background-image: url("src/LeftArrow.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.slider4 {
+  background-color: #a91111;
+  background-image: url("src/LeftArrow.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.slider5 {
+  background-color: #730606;
+  background-image: url("src/LeftArrow.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .blur {
@@ -288,38 +361,6 @@ nav li.active {
   z-index: -1;
   padding: 0;
   margin: 0;
-}
-
-.containerP {
-  font-family: sans-serif;
-  color: floralwhite;
-  padding-bottom: 40px;
-  text-align: center;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-.containerH1 {
-  padding-bottom: 40px;
-  font-family: sans-serif;
-  color: floralwhite;
-  font-size: 3.5rem;
-  text-align: center;
-}
-
-.containerH2 {
-  font-family: sans-serif;
-  color: floralwhite;
-  text-align: center;
-}
-
-@media (max-width: 500px) {
-  .containerH1 {
-    font-size: 2rem;
-  }
-  .container {
-    height: 80%;
-    width: 80%;
-  }
 }
 
 .boxcontainer {
