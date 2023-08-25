@@ -63,3 +63,50 @@ window.addEventListener("load", function () {
     enableEverything(); //enablling everything
   }, 1000);
 });
+
+const slides = document.querySelectorAll(".ss");
+var counter = 0;
+
+slides.forEach((slides, index) => {
+  slides.style.left = `${index * 100}%`;
+});
+
+const goNext = () => {
+  if (counter == 4) {
+    counter = 0;
+    slideImage();
+  } else {
+    counter++;
+    slideImage();
+  }
+};
+
+const goPrev = () => {
+  if (counter == 0) {
+    counter = 4;
+    slideImage();
+  } else {
+    counter--;
+    slideImage();
+  }
+};
+
+const slideImage = () => {
+  slides.forEach((slides) => {
+    slides.style.transform = `translateX(-${counter * 100}%`;
+  });
+};
+
+setInterval(() => {
+  switch (counter) {
+    case 0:
+      counter = 4;
+      slideImage();
+    case 4:
+      counter = 0;
+      slideImage();  
+    default:
+      counter++;
+      slideImage();
+  }
+}, 5000);
