@@ -1,4 +1,4 @@
-# EchoLife-Geek-a-thon-project
+# EcoLife-Geek-a-thon-project
 <details>
     <summary>Table of Contents</summary>
     <ol>
