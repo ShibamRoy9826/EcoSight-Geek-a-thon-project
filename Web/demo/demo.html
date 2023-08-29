@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo</title>
+    <link rel="stylesheet" href="../libs/hamburgers.css" />
+    <link rel="stylesheet" href="../libs/../libs/three-dots.css" />
+    <link rel="stylesheet" href="../libs/../libs/three-dots.css.map" />
+    <link rel="stylesheet" href="demo.css" />
+  </head>
+  <body>
+    <div id="loader">
+      <div class="dot-elastic"></div>
+    </div>
+    <header id="navbar">
+      <div class="nav_blur"></div>
+      <h2 class="logo">EcoLife</h2>
+      <div class="hamburger hamburger--emphatic">
+        <div class="hamburger-box">
+          <div class="hamburger-inner"></div>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="../index.html">HOME</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li>
+            <a href="#">PROCEDURE ▾</a>
+            <ul>
+              <div class="blur"></div>
+              <li><a href="#">APPROACH</a></li>
+              <li><a href="#">INSIGHTS</a></li>
+              <li><a href="#">DATA SOURCES</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">DEMO ▾</a>
+            <ul>
+              <li><a href="#">CARBON</a></li>
+              <li><a href="#">CARBON</a></li>
+              <li><a href="#">CARBON</a></li>
+            </ul>
+          </li>
+          <li><a href="#">ACKNOWLEDGEMENT</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <a href="#">
+        <img src="../src/LeftArrow.svg" alt="RightArrow" /onclick="goPrev()">
+      </a>
+      <a href="#">
+        <img src="../src/RightArrow.svg" alt="LeftArrow" /onclick="goNext()">
+      </a>
+      <div class="slidercontainer">
+        <div class="ss slider1">
+          <p>Are You Gay?</p>
+          <input type="number">
+        </div>
+        <div class="ss slider2">
+          <p>Kya App Gay Hain?</p>
+        </div>
+        <div class="ss slider3">
+          <p>Tumi Ki Gay?</p>
+        </div>
+        <div class="ss slider4">
+          <p>Eres Gay?</p>
+        </div>
+        <div class="ss slider5">
+          <p>Xiang chung ching chong Gay?</p>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="demo.js"></script>
+</html>
