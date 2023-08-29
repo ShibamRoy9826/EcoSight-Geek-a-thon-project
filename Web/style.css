@@ -12,7 +12,7 @@ body {
   font-family: montserrat;
   height: 100vh;
   height: 100dvh;
-  /* background-image: url("src/forest.jpg"); */
+  background-image: url("src/forest.jpg");
   background-color: #0a680b;
   background-size: cover;
   background-repeat: no-repeat;
@@ -281,7 +281,7 @@ nav li.active {
   position: absolute;
   height: 100%;
   width: 100%;
-  background-image: url("src/aboutusBG.png");
+  background-image: url("src/AboutUsBG.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   z-index: -1;
