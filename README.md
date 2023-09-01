@@ -14,7 +14,7 @@
         <ul>
             <li><a href="#project-overview">Project Overview</a></li>
             <li><a href="#team-members">Team Members</a></li>
-            <li><a href="#methodology">Methodology</a></li>
+            <li><a href="#QNA">QNA</a></li>
             <li><a href="#key-findings">Key Findings</a></li>
             <li><a href="#conclusion">Conclusion</a></li>
             <li><a href="#data-source">Data Source</a></li>
@@ -62,7 +62,7 @@ Introducing the EcoSight  Analytics by our team for the GeeksforGeeks EcoTech Ha
 - Shibam Roy: Data Scientist / Back-end developer
 - Ankush Roy: Front-end Developer/ UI Designer
 - Swadhin Maharana: Data Scientist
-## Methodology
+## QNA
 
 
 ## Key Findings
