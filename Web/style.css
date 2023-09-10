@@ -12,7 +12,7 @@ body {
   font-family: montserrat;
   height: 100vh;
   height: 100dvh;
-  /* background-image: url("src/forest.jpg"); */
+  background-image: url("src/forest.jpg");
   background-color: #0a680b;
   background-size: cover;
   background-repeat: no-repeat;
