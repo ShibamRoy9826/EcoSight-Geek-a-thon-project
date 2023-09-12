@@ -72,7 +72,7 @@ slides.forEach((slides, index) => {
 });
 
 const goNext = () => {
-  if (counter == 4) {
+  if (counter == 2) {
     counter = 0;
     slideImage();
   } else {
@@ -83,7 +83,7 @@ const goNext = () => {
 
 const goPrev = () => {
   if (counter == 0) {
-    counter = 4;
+    counter = 2;
     slideImage();
   } else {
     counter--;
@@ -100,16 +100,16 @@ const slideImage = () => {
 setInterval(() => {
   switch (counter) {
     case 0:
-      counter = 4;
+      counter = 2;
       slideImage();
-    case 4:
+    case 2:
       counter = 0;
       slideImage();
     default:
       counter++;
       slideImage();
   }
-}, 5000);
+}, 7000);
 
 const about = document.querySelector(".aboutus");
 const ankush = document.querySelector(".ankush");
