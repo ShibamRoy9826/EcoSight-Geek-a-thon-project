@@ -12,7 +12,7 @@ body {
   font-family: montserrat;
   height: 100vh;
   height: 100dvh;
-  /* background-image: url("src/forest.jpg"); */
+  background-image: url("src/forest.jpg");
   background-color: #0a680b;
   background-size: cover;
   background-repeat: no-repeat;
@@ -32,7 +32,7 @@ body {
     #009d24,
     #18cb26
   );*/
-  background-color: white;
+  background-color:white;
   position: fixed;
   z-index: 100000;
 }
@@ -261,106 +261,6 @@ nav li.active {
 }
 /* The header ends here */
 
-/* homepage  starts here*/
-.container {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
-  height: 450px;
-  width: 100%;
-  border: 4px solid floralwhite;
-  background-color: #01f32506;
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.Containerblur {
-  height: 100%;
-  width: 100%;
-  position: inherit;
-  background-color: rgba(0, 0, 0, 0.16);
-  backdrop-filter: blur(2px);
-  border-bottom: 2px solid #86f388c5;
-  z-index: -1;
-  padding: 0;
-  margin: 0;
-}
-
-.contained {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateY(-50%) translateX(-50%);
-  background-color: transparent;
-}
-
-.contained a img {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: #abd5b600;
-  filter: invert(1);
-  z-index: 100;
-}
-
-.contained a:nth-child(1) img {
-  left: 0;
-}
-.contained a:nth-child(2) img {
-  right: 0;
-}
-
-.slidercontainer {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  position: relative;
-  box-shadow: 0px 0px 1000px;
-}
-
-.slides {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  transition: transform 1s cubic-bezier(0.61, 1, 0.88, 1);
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.slider1 {
-  background-color: transparent;
-}
-.slider2 {
-  background-color: transparent;
-}
-.slider3 {
-  background-color: transparent;
-}
-.slider4 {
-  background-color: transparent;
-}
-.slider5 {
-  background-color: transparent;
-}
-
-.blur {
-  height: 100%;
-  width: 100%;
-  position: inherit;
-  background-color: rgba(0, 0, 0, 0.16);
-  backdrop-filter: blur(4px);
-  z-index: -1;
-  padding: 0;
-  margin: 0;
-}
-/* homepage ends here */
-
 /* aboutus section starts here */
 
 #about_us {
@@ -434,8 +334,9 @@ nav li.active {
   transform: translateX(150%);
   z-index: 2;
 }
-.swadhin img {
+.swadhin img{
   filter: drop-shadow(0px 0px 100px #d7ffd6);
+
 }
 .shibam {
   grid-area: 3 / 6 / 7 / 11;
@@ -444,7 +345,7 @@ nav li.active {
   transform: scale(1.4);
   z-index: 3;
 }
-.shibam img {
+.shibam img{
   filter: drop-shadow(0px 0px 100px #ffee00);
 }
 .ankush {
@@ -453,8 +354,9 @@ nav li.active {
   transform: translateX(-150%);
   z-index: 1;
 }
-.ankush img {
+.ankush img{
   filter: drop-shadow(0px 0px 100px #ff00ff);
+
 }
 .show {
   opacity: 1;
@@ -532,6 +434,161 @@ nav li.active {
 }
 /* aboutus section ends here */
 
+/* homepage  starts here*/
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  height: 35rem;
+  width: 100%;
+  border: 1px solid floralwhite;
+  background-color: #01f32506;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Containerblur {
+  height: 100%;
+  width: 100%;
+  position: inherit;
+  background-color: rgba(0, 0, 0, 0.16);
+  backdrop-filter: blur(2px);
+  border-bottom: 2px solid #86f388c5;
+  z-index: -1;
+  padding: 0;
+  margin: 0;
+}
+
+.contained {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+/*  background-color: #7af294e3;*/
+}
+
+.contained a img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #abd5b600;
+  filter: invert(1);
+  z-index: 100;
+}
+
+.contained a:nth-child(1) img {
+  left:0;
+}
+.contained a:nth-child(2) img {
+  right: 0;
+}
+
+.slidercontainer {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  box-shadow: 0px 0px 1000px ;
+}
+.coolButton{
+  background-color: rgb(99,102,241);
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color:white;
+  border-radius: 1rem;
+  position: relative;
+  top: 25%;
+
+}
+.coolButton:hover{
+  background-color: rgb(69,72,211);
+  transition: 0.5s;
+
+}
+.slidercontainer h1{
+  font-size: 2.5rem;
+  line-height: 10rem;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  top: 15%;
+}
+.slidercontainer p{
+  font-size:1rem;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  top: 15%;
+
+/*  line-height: 11rem;*/
+  width: 65%;
+}
+.ss {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: transform 1s cubic-bezier(0.61, 1, 0.88, 1);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.changeButton{
+  color:rgb(55,55,55);
+}
+.slider1 {
+  text-align:center;
+  vertical-align: middle;
+/*  background-color: #f56b6b; ToChange*/
+/*  background-image: url("src/LeftArrow.svg");*/
+  color:white;
+}
+
+.slider2 {
+  text-align:center;
+  vertical-align: middle;
+/*  background-color: #d34a4a; ToChange*/
+/*  background-image: url("src/LeftArrow.svg");*/
+  color:white;
+}
+.slider3 {
+/*  background-color: #c33b3b; ToChange*/
+/*  background-image: url("src/LeftArrow.svg");*/
+text-align:center;
+  vertical-align: middle;
+  color:white;
+}
+
+.welcomeTitle{
+  font-family: 'Roboto Condensed', sans-serif;
+  color:white;
+}
+.welcomePara{
+  font-family: 'Roboto Condensed', sans-serif;
+  color:rgb(220,220,220);
+  position:relative;
+  left: 15%;
+}
+.blur {
+  height: 100%;
+  width: 100%;
+  position: inherit;
+  background-color: rgba(0, 0, 0, 0.16);
+  backdrop-filter: blur(4px);
+  z-index: -1;
+  padding: 0;
+  margin: 0;
+}
+/* homepage ends here */
+
 /* sources starts here */
 .dataSources {
   position: relative;
@@ -579,21 +636,21 @@ nav li.active {
 /* sources ends here */
 
 .curve1 {
-  position: absolute;
-  bottom: -250%;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
+    position: absolute;
+    bottom: -250%;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
 }
 
 .curve1 svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 500px;
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 500px;
 }
 
 .curve1 .shape-fill {
-  fill: #130068;
+    fill: #130068;
 }
