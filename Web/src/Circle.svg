@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="194.55634mm"
+   height="192.55634mm"
+   viewBox="0 0 194.55634 192.55634"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="Circle.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     width="192.55634mm"
+     height="192.55634mm"
+     inkscape:zoom="0.46057099"
+     inkscape:cx="888.02815"
+     inkscape:cy="373.44949"
+     inkscape:window-width="1365"
+     inkscape:window-height="741"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect529"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect492"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect455"
+       is_visible="true"
+       lpeversion="1" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect68"
+       is_visible="true"
+       lpeversion="1" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-10.004016,-31.460533)">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 32.152404,71.113833 c -14.9802,19.746729 -21.739158,45.538657 -18.368713,70.094297 3.370445,24.55565 16.828784,47.5726 36.575513,62.5528 19.746728,14.9802 45.538653,21.73916 70.094296,18.36871 24.55565,-3.37044 47.5726,-16.82878 62.5528,-36.57551 14.9802,-19.74673 21.73916,-45.53865 18.36871,-70.0943 C 198.00457,90.904183 184.54623,67.887233 164.7995,52.907033 145.05277,37.926834 119.26085,31.167875 94.705201,34.53832 70.149554,37.908765 47.132604,51.367104 32.152404,71.113833 Z"
+       id="path527" />
+  </g>
+</svg>
