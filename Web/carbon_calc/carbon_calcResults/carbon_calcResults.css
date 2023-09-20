@@ -11,7 +11,7 @@ html {
 }
 
 body {
-  font-family: montserrat;
+  font-family: "Poppins", sans-serif;
   height: 100svh;
   background-color: #39da4e;
   opacity: 1;
@@ -25,14 +25,15 @@ body {
 #loader {
   height: 100vh;
   width: 100vw;
-  background-image: linear-gradient(
+  /*background-image: linear-gradient(
     to top,
     #012305,
     #004914,
     #00721e,
     #009d24,
     #18cb26
-  );
+  );*/
+  background-color:white;
   position: fixed;
   z-index: 100000;
 }
@@ -66,10 +67,10 @@ header {
 }
 
 header .logo {
-  font-family: "Poppins" sans-serif;
+  font-family: 'Ubuntu', sans-serif;;
   white-space: nowrap;
   padding-left: 50px;
-  color: #ccd8df;
+  color: white;
   font-size: 1.75em;
   font-weight: 600;
   text-decoration: none;
@@ -318,8 +319,8 @@ nav li.active {
 }
 
 :root {
-  --circle-color: #0440db;
-  /*change the color as you wish*/
+/*  --circle-color: 0440db;*/
+  --circle-color: #0248FD;
 }
 
 .circle {
@@ -375,9 +376,9 @@ nav li.active {
 
 /* .circle .bigTextScore span{ */
 #score {
+  font-family: 'Ubuntu', sans-serif;;
   font-size: 2rem;
-  color: #90cca0;
-  /* change color as wish*/
+  color:  #07FF27;
 }
 
 .recommendations {
@@ -393,19 +394,22 @@ nav li.active {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 80vw;
-  background-color: #ffffff00;
+  background-color: #30EC48;
+
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
 }
 
+
 .hText {
   text-align: center;
-  color: #333;
+  color: black;
+  padding-bottom: 2rem;
 }
 
 .custom-list {
@@ -422,5 +426,10 @@ nav li.active {
 .list-icon {
   font-size: 40px;
   margin-right: 10px;
-  color: #000000; /* Change to your preferred color */
+  color: #ffffff; 
+}
+
+.lnk{
+  color:  #07FF27;
+  text-decoration: none;
 }
