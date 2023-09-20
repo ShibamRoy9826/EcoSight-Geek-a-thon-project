@@ -17,14 +17,15 @@ body {
 #loader {
   height: 100dvh;
   width: 100dvw;
-  background-image: linear-gradient(
+  /*background-image: linear-gradient(
     to top,
     #012305,
     #004914,
     #00721e,
     #009d24,
     #18cb26
-  );
+  );*/
+  background-color: white;
   position: fixed;
   z-index: 100000;
 }
@@ -69,7 +70,7 @@ header {
 }
 
 header .logo {
-  font-family: "Poppins" sans-serif;
+  font-family: "Ubuntu", sans-serif;
   white-space: nowrap;
   padding-left: 50px;
   color: #505050;
@@ -288,6 +289,7 @@ nav li.active {
 
 .container p {
   margin-bottom: 3rem;
+  width: 70%;
 }
 
 section {
@@ -376,7 +378,7 @@ section {
 .responsiveImg {
   width: 100%;
   height: auto;
-  margin: 1rem;
+  margin: 0.5rem;
 }
 
 .responsiveImg img {
@@ -462,16 +464,21 @@ section {
 .footer {
   background-color: #24262b;
   color: white;
-  height: 7rem;
+  width: 100%;
+
   text-align: center;
   align-items: center;
-  justify-items: center;
+/*  justify-items: center;*/
 }
 
 .footer h1 {
   padding: 2rem;
 }
 
+.github{
+  position: relative;
+  left: 80%;
+}
 @media (max-width: 800px) {
   .container * {
     scale: 0.8;
@@ -481,6 +488,7 @@ section {
   }
   .container p{
     margin-bottom: 0;
+    width: 90%;
   }
   #Process {
     scale: 0.8;
@@ -510,6 +518,7 @@ section {
   .Litem{
     font-size: small;
   }
+  .
   
 }
 @media (max-width: 650px)
@@ -519,5 +528,6 @@ section {
     }
     .container p{
         font-size: 2rem;
+        width: 90%;
     }
 }
