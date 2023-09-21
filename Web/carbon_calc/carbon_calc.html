@@ -3,18 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Carbon Calc</title>
+    <title>EcoSight - Carbon Calc</title>
     <link rel="stylesheet" href="../libs/hamburgers.css" />
     <link rel="stylesheet" href="../libs/../libs/three-dots.css" />
     <link rel="stylesheet" href="../libs/../libs/three-dots.css.map" />
-    <link rel="stylesheet" href="carbon_calc.css" />
+    <link rel="stylesheet" href="carbonCalc.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Condensed:wght@300&display=swap"
+      rel="stylesheet"
+    />
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Condensed:wght@300&family=Ubuntu&display=swap" rel="stylesheet">
   </head>
   <body>
     <div id="loader">
       <div class="dot-elastic"></div>
     </div>
     <header id="navbar">
-      <h2 class="logo">EcoLife</h2>
+      <div class="nav_blur"></div>
+      <h2 class="logo">EcoSight</h2>
       <div class="hamburger hamburger--emphatic">
         <div class="hamburger-box">
           <div class="hamburger-inner"></div>
@@ -27,6 +35,7 @@
           <li>
             <a href="#">PROCEDURE ▾</a>
             <ul>
+              <div class="blur"></div>
               <li><a href="#">APPROACH</a></li>
               <li><a href="#">INSIGHTS</a></li>
               <li><a href="#">DATA SOURCES</a></li>
@@ -34,88 +43,227 @@
           </li>
           <li>
             <a href="#">DEMO ▾</a>
-            <ul>
-              <li><a href="#">CARBON CALC</a></li>
-              <li><a href="../Amazon/amazon.html">AMAZON</a></li>
-              <li><a href="#">CARBON</a></li>
+            <ul class="demo">
+              <li><a href="#" id="carbon">CARBON CALC</a></li>
+              <li><a href="#" id="amazon">AMAZON</a></li>
+              <li><a href="#" id="airPol">CARBON</a></li>
             </ul>
           </li>
           <li><a href="#">ACKNOWLEDGEMENT</a></li>
         </ul>
       </nav>
     </header>
-    <main>
-      <div class="QuestionContainer">
-        <div class="Question1">
-          <p>
-            1. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
-            aperiam expedita assumenda cupiditate?
-          </p>
-          <input type="text" />
+
+    <!-- Navbar ends -->
+
+    <!-- Heading and basic description -->
+    <section id="Form">
+      <div class="container">
+        <h1>Carbon Footprint Calculator</h1>
+        <form method="post">
+          <!-- <label>1.Which Country do you belong to?</label> -->
+          <input type="text" placeholder="Enter your country name, for ex. India">
+          <!-- <label>2.How much distances do you cover daily by vehicles(in km)?</label> -->
+          <input type="text" placeholder="Enter your daily vehicle distance, for ex. 3">
+          <!-- <label>3.How long distances do you cover by Aeroplanes each year?(in km)(enter 0 if not applicable)</label> -->
+          <input type="text" placeholder="Enter your distances covered by air vehicles, for ex. 600">
+          <!-- <label>4.How much long distances do you cover each year, in train,etc.?(in km)(enter 0 if not applicable)</label> -->
+          <input type="text" placeholder="Enter your distances covered by land vehicles, for ex. 800">
+          <!-- <label>5.What is your monthly electricity bill? (in $)</label> -->
+          <input type="text" placeholder="Enter your monthly electricity bill, for ex. 40">
+
+          <!-- <label>6.What is your monthly gas bill? (in $)</label> -->
+          <input type="text" placeholder="Enter your monthly gas bill, for ex. 10">
+
+          <input type="submit" name="SubmitButton" class="coolButton">
+
+        </form>
+      </div>
+    </section>
+    <!-- basic ends here -->
+
+    <hr />
+
+    <!-- Procedure Starts here -->
+    <section id="Process">
+      <h1>Process</h1>
+      <p>
+       The process of analyzing carbon footprint calculation and constructing a model for it is a multifaceted endeavor. It entails meticulous data collection, assessing emissions from various sources, and determining their environmental impact. This data is then integrated into a comprehensive model, which considers factors like energy usage, transportation, and production methods. The resulting model serves as a valuable tool for individuals, businesses, and governments to make informed decisions and take meaningful steps towards reducing their carbon footprint, thereby contributing to a more sustainable future.
+      </p>
+      <strong>
+        <ul>
+          <li class="Litem">
+            We started by collecting multiple data from sources like 
+            <a
+              href="https://ourworldindata.org"
+              >ourworldindata</a
+            >, <a href="https://www.statista.com/statistics/263492/electricity-prices-in-selected-countries/">statistica</a> and <a href="https://dewesoft.com/blog/countries-electricity-source">dewesoft</a>
+          </li>
+          <li class="Litem">
+            Then we loaded our dataset as a data frame by the use of Pandas.
+          </li>
+          <li class="Litem">
+            Data collection was the toughest part of this section, but we were able to collect quality data
+          </li>
+          <li class="Litem">
+            We further researched about emmissions and there calculations, how much carbon dioxide is emmitted in an activity etc.
+          </li>
+          <li class="Litem">
+            We also made multiple visualizations to further deep dive into the
+            data
+          </li>
+          <li class="Litem">
+            You can check out everything in depth 
+            <a
+              href="https://github.com/ShibamRoy9826/EcoSight-Geek-a-thon-project/tree/main/Models/AirQuality"
+              >here</a
+            >
+          </li>
+
+        </ul>
+      </strong>
+    </section>
+
+    <hr />
+    <!-- Procedure ends here -->
+
+    <section id="Insights">
+      <h1>Insights</h1>
+      <p>
+        In the insights section of the Air Quality Index dataset analysis, key
+        findings emerged from the processed data. Patterns and correlations
+        among air quality parameters were identified through statistical
+        analysis and visual representations. These insights shed light on trends
+        in air quality over time, highlighting notable variations and potential
+        factors influencing air quality. The analysis unveiled valuable
+        information, enabling a better understanding of the dataset and the
+        broader implications for air quality monitoring and environmental
+        considerations.They are as follows:
+      </p>
+      <strong>
+        <ul>
+          <li class="Litem">
+            In the year 2020, there was a sudden decrease in the air pollution,
+            and resulted in a good air quality index, Most probably this was due
+            to Corona Virus.
+          </li>
+          <li class="Litem">
+            Each year, especially in the month of August, we have good air
+            quality index, this should usually happen due to the phenomenon
+            called "Wet Deposition"
+          </li>
+          <li class="Litem">
+            Each day, during the time of 5AM , 12AM and 4-5PM, the air quality
+            index shows a great change.This can be because these are considered
+            as the business hours.
+          </li>
+          <li class="Litem">
+            Pollution was at its peak in the year of 2018, it gradually
+            decreased to 2020, and it slightly started to raise by 2021, by
+            which we can predict almost about by this year or maybe the next, it
+            would cross the air pollution of 2017!
+          </li>
+        </ul>
+      </strong>
+      <br /><br />
+    </section>
+    <!-- Insights end here -->
+
+    
+    <hr />
+
+    <!-- Visualizations start here -->
+<!-- 
+    <section id="Viz">
+
+      <h1>Visualizations</h1>
+
+      <div class="VizContainer">
+        <div class="VizItem">
+          <a href="../src/AirQualityPerYear.png">
+            <img
+              src="../src/AirQualityPerYear.png"
+              class="responsiveImg"
+              id="img1"
+            />
+            <div class="overlay">
+              <div class="text"><span>A.Q Per Year</span><br />Line Plot</div>
+            </div>
+          </a>
         </div>
-        <div class="Question2">
-          <p>
-            2. Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Consectetur in magni a.
-          </p>
-          <input type="text" />
+
+        <div class="VizItem">
+          <a href="../src/AirQualityPerMonth.png">
+            <img
+              src="../src/AirQualityPerMonth.png"
+              class="responsiveImg"
+              id="img2"
+            />
+            <div class="overlay">
+              <div class="text"><span>A.Q Per Month</span><br />Line Plot</div>
+            </div>
+          </a>
         </div>
-        <div class="Question3">
-          <p>
-            3. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Reiciendis molestiae saepe asperiores velit mollitia id.
-          </p>
-          <input type="text" />
+
+        <div class="VizItem">
+          <a href="../src/AirQualityPerDayPerMonth.png">
+            <img
+              src="../src/AirQualityPerDayPerMonth.png"
+              class="responsiveImg"
+              id="img3"
+            />
+            <div class="overlay">
+              <div class="text">
+                <span>A.Q Per Day per Month</span><br />Line Plot
+              </div>
+            </div>
+          </a>
         </div>
-        <div class="Question4">
-          <p>
-            4. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam
-            possimus ex nihil pariatur dolor quasi inventore quos tenetur
-            quidem.
-          </p>
-          <input type="text" />
+
+        <div class="VizItem">
+          <a href="../src/AirQualityPerDay.png">
+            <img
+              src="../src/AirQualityPerDay.png"
+              class="responsiveImg"
+              id="img4"
+            />
+            <div class="overlay">
+              <div class="text"><span>A.Q Per Day</span><br />Line Plot</div>
+            </div>
+          </a>
         </div>
-        <div class="Question5">
-          <p>
-            5. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe.
-          </p>
-          <input type="text" />
+
+        <div class="VizItem">
+          <a href="../src/AirQuality.png">
+            <img src="../src/AirQuality.png" class="responsiveImg" id="img5" />
+            <div class="overlay">
+              <div class="text"><span>A.Q Overall</span><br />Line Plot</div>
+            </div>
+          </a>
         </div>
-        <div class="Question6">
-          <p>
-            6. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae,
-            facere voluptas. Voluptatem necessitatibus quisquam quod odio.
-          </p>
-          <input type="text" />
-        </div>
-        <div class="Question7">
-          <p>7. Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-          <input type="text" />
+
+        <div class="VizItem">
+          <a href="../src/ModelPredictions.png">
+            <img src="../src/ModelPredictions.png" class="responsiveImg" id="img5" />
+            <div class="overlay">
+              <div class="text"><span>Model Performance</span><br />Plot</div>
+            </div>
+          </a>
         </div>
       </div>
-    </main>
-    <!-- somebody said it was't looking good this section wont make it good but will guess add some life to it -->
-    <div class="wrapper">
-      <div class="box">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
-    </div>
-    <footer>
-      <div class="elements">
-        <a href="https://github.com/ShibamRoy9826/EcoSight-Geek-a-thon-project"
-          ><img src="../src/github-mark-white.svg" alt="github-mark-white"
-        /></a>
-      </div>
+    </section>
+    <br /><br /><br />
+ -->
+    <!-- Visualizations end here -->
+
+    <!-- Footer starts here -->
+    <footer class="footer">
+      <h1>Thank you for visiting!</h1>
+      
     </footer>
+    
+
+    <!-- Footer ends here -->
   </body>
-  <script src="carbon_calc.js"></script>
+  <script src="carbonCalc.js"></script>
 </html>
