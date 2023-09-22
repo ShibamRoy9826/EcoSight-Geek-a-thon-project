@@ -63,7 +63,19 @@ Introducing the EcoSight  Analytics by our team for the GeeksforGeeks EcoTech Ha
 - Ankush Roy: Front-end Developer/ UI Designer
 - Swadhin Maharana: Data Scientist
 ## QNA
+<h1>1.What our project basically targets to do?</h1>
+=> Our project promotes sustainable environmental development and also features multiple applications such as a carbon footprint calculator , so that people are aware of their own carbon emission contributions, Not only does it calculate the carbon emissions it also suggests recommendations on how we can improve ourselves to have a better future!
 
+Our project also has a Satellite image classification model which basically classifies the situation of any satellite image given to it, this will classify the probability of that particular area of having pollution, water, mine etc.
+This can be used to identify your locality in a better way.
+
+That's not all, we also analysed the air pollution index data from 2017 to 2022 and drew out multiple helpful insights, you can check the overall analysis too! This also has a predictive model to find out upcoming air pollution indices especially in India, the model isn't available to run in the website but you can run it locally in your computer(instructions are given near the jupyter notebook , or you can check the other questions too)
+
+<h1>2.How can you access our project?</h1>
+=> You are already in the correct place, you can view this overall repository to find out our work.
+
+<h1>3.How can you run the Air Pollution Index model?</h1>
+=> Our model is there in the AirQuality folder, you can simply download it in your computer, run the python script with it called "runAirQuality.py" , but ensure to have internet connection during the installation procedure(The python script will install a few libraries, make to sure to have python installed in your computer too)
 
 ## Key Findings
 
