@@ -71,23 +71,23 @@ This can be used to identify your locality in a better way.
 
 That's not all, we also analysed the air pollution index data from 2017 to 2022 and drew out multiple helpful insights, you can check the overall analysis too! This also has a predictive model to find out upcoming air pollution indices especially in India, the model isn't available to run in the website but you can run it locally in your computer(instructions are given near the jupyter notebook , or you can check the other questions too)
 
-## 2.How can you access our project?
+### 2.How can you access our project?
 => You are already in the correct place, you can view this overall repository to find out our work.
 
-## 3.How can you run the Air Pollution Index model?
+### 3.How can you run the Air Pollution Index model?
 => Due to github restrictions we can't upload this file here as its quite large, but you can check the python notebook used to make it in the AirQuality folder, besides that you can download the model from here(TO BE UPDATED).
 Just extract the zip file and follow the instructions in the readme.txt
 
-## 4.Which libraries and language are we using?
+### 4.Which libraries and language are we using?
 => We are using python as a language for the overall logic and we are also using JavaScript in web development.For non-programming languages we are using html and css for web development.When it comes to libraries we are using matplotlib and seaborn because of their wonderful capabilities of creating visualizations, we are also using pandas and numpy for data management ,tensorflow keras for deep learning and sklearn for machine learning.
 
-## 5.How is the backend working?
+### 5.How is the backend working?
 => For the backend and server hosting we are using free tier of python anywhere. As a framework we are working with Django.
 
-## 6.What is our project for?
+### 6.What is our project for?
 => Our project is solely made for sustainable environment development, we are creating it on the occasion of a wonderful hackathon organised by Geeksforgeeks which is called EchoTech, but besides for the hackathon we are also going to maintain this site after, and further developmental plans would be there for this website.
 
-## 7.What are the future plans for this website?
+### 7.What are the future plans for this website?
 => We are going to maintain our website even after this hackathon ends, we already have plans like tourism recommendation system, social media updates on ecology, and many more! the updates would be coming soon be ready!
 
 ## Key Findings
