@@ -63,7 +63,7 @@ Introducing the EcoSight  Analytics by our team for the GeeksforGeeks EcoTech Ha
 - Ankush Roy: Front-end Developer/ UI Designer
 - Swadhin Maharana: Data Scientist
 ## QNA
-<h1>1.What our project basically targets to do?</h1>
+### 1.What our project basically targets to do?
 => Our project promotes sustainable environmental development and also features multiple applications such as a carbon footprint calculator , so that people are aware of their own carbon emission contributions, Not only does it calculate the carbon emissions it also suggests recommendations on how we can improve ourselves to have a better future!
 
 Our project also has a Satellite image classification model which basically classifies the situation of any satellite image given to it, this will classify the probability of that particular area of having pollution, water, mine etc.
@@ -71,14 +71,29 @@ This can be used to identify your locality in a better way.
 
 That's not all, we also analysed the air pollution index data from 2017 to 2022 and drew out multiple helpful insights, you can check the overall analysis too! This also has a predictive model to find out upcoming air pollution indices especially in India, the model isn't available to run in the website but you can run it locally in your computer(instructions are given near the jupyter notebook , or you can check the other questions too)
 
-<h1>2.How can you access our project?</h1>
+## 2.How can you access our project?
 => You are already in the correct place, you can view this overall repository to find out our work.
 
-<h1>3.How can you run the Air Pollution Index model?</h1>
-=> Our model is there in the AirQuality folder, you can simply download it in your computer, run the python script with it called "runAirQuality.py" , but ensure to have internet connection during the installation procedure(The python script will install a few libraries, make to sure to have python installed in your computer too)
+## 3.How can you run the Air Pollution Index model?
+=> Due to github restrictions we can't upload this file here as its quite large, but you can check the python notebook used to make it in the AirQuality folder, besides that you can download the model from here(TO BE UPDATED).
+Just extract the zip file and follow the instructions in the readme.txt
+
+## 4.Which libraries and language are we using?
+=> We are using python as a language for the overall logic and we are also using JavaScript in web development.For non-programming languages we are using html and css for web development.When it comes to libraries we are using matplotlib and seaborn because of their wonderful capabilities of creating visualizations, we are also using pandas and numpy for data management ,tensorflow keras for deep learning and sklearn for machine learning.
+
+## 5.How is the backend working?
+=> For the backend and server hosting we are using free tier of python anywhere. As a framework we are working with Django.
+
+## 6.What is our project for?
+=> Our project is solely made for sustainable environment development, we are creating it on the occasion of a wonderful hackathon organised by Geeksforgeeks which is called EchoTech, but besides for the hackathon we are also going to maintain this site after, and further developmental plans would be there for this website.
+
+## 7.What are the future plans for this website?
+=> We are going to maintain our website even after this hackathon ends, we already have plans like tourism recommendation system, social media updates on ecology, and many more! the updates would be coming soon be ready!
 
 ## Key Findings
-
+### From Air Quality Index
+### From Satellite image classification 
+### From Carbon Footprint calculation
 
 ## Conclusion
 
