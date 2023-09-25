@@ -92,14 +92,39 @@ Just extract the zip file and follow the instructions in the readme.txt
 
 ## Key Findings
 ### From Air Quality Index
+<ul>
+<li>In the year 2020, there was a sudden decrease in the air pollution, and resulted in a good air quality index, Most probably this was due to Corona Virus.</li>
+<li>Each year, especially in the month of August, we have good air quality index, this should usually happen due to the phenomenon called "Wet Deposition"</li>
+<li>Each day, during the time of 5AM , 12AM and 4-5PM, the air quality index shows a great change.This can be because these are considered as the business hours.</li>
+<li>Pollution was at its peak in the year of 2018, it gradually decreased to 2020, and it slightly started to raise by 2021, by which we can predict almost about by this year or maybe the next, it would cross the air pollution of 2017!</li>
+</ul>
 ### From Satellite image classification 
+Not much insights were found in this, we trained a deep learning model instead.
 ### From Carbon Footprint calculation
+<ul>
+<li>Most of the countries use Oil for their electricity production, which usually exerts about 730g of Carbon per 1KWh, which is a bad news!</li>
+<li>On an average electricity costs about $0.16 globally.</li>
+<li>Globally, on an average each person emmits about 4.61 tonnes of carbon each year, while the target emmissions are less than or equal to 2.5 tonnes!</li>
+<li>Carbon Dioxide mostly from gas is around 1.3 tonnes per year per person!</li>
+</ul>
 
 ## Conclusion
+In conclusion, the sustainable development of our ecosystem is not just a vision; it's a tangible reality that we are actively shaping through innovation and collective efforts. Our website, equipped with features like Satellite Image Classification, Carbon Footprint Calculator, and Air Quality Index Analysis, is a testament to our commitment to this cause. As we navigate the intricate web of data and technology, we discover the means to harmonize our existence with nature.
+
+While our world is unmistakably progressing towards sustainability, the urgency of our situation cannot be overstated. Climate change and ecological degradation continue to challenge our planet. We must act swiftly, collectively, and decisively to preserve the delicate balance of our environment. Our mission is to not only provide tools for understanding and mitigating environmental impact but also to inspire action.
+
+By embracing sustainable choices and advocating for change, we can accelerate this global transformation. Together, we have the power to safeguard our planet for generations to come. Let's work tirelessly, innovate relentlessly, and inspire one another to move swiftly towards a more sustainable future. Our planet's well-being depends on it.
 
 
-## Data source
-
+## Data sources
+We are thankful to all the data sources through which we have accessed the data, here are the sources:
+<ul>
+    <li><a href="https://dewesoft.com/blog/countries-electricity-source">Major source of electricity in each country</a></li>
+    <li><a href="https://www.statista.com/statistics/263492/electricity-prices-in-selected-countries/">Electricity prices of each country</a></li>
+    <li><a href="https://www.ourworldindata.org/"> CO<sub>2</sub> emmissions data</a></li>
+    <li><a href="https://www.kaggle.com/datasets/prosperchuks/amazonsatelliteimages">Amazon Satellite Images Data</a></li>
+    <li><a href="https://www.kaggle.com/datasets/fedesoriano/air-quality-data-in-india">Air Quality Index data</a></li>
+</ul>
 ## Acknowledgments
 We would like to express our gratitude to GeeksforGeeks (GFG) for organizing the competition and providing the opportunity to work on this exciting project.
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
