@@ -125,6 +125,12 @@ We are thankful to all the data sources through which we have accessed the data,
     <li><a href="https://www.kaggle.com/datasets/prosperchuks/amazonsatelliteimages">Amazon Satellite Images Data</a></li>
     <li><a href="https://www.kaggle.com/datasets/fedesoriano/air-quality-data-in-india">Air Quality Index data</a></li>
 </ul>
+
 ## Acknowledgments
-We would like to express our gratitude to GeeksforGeeks (GFG) for organizing the competition and providing the opportunity to work on this exciting project.
+
+We would like to express our sincere gratitude to GeeksforGeeks for organizing the hackathon that inspired this website. The hackathon was a well-organized and challenging event that provided us with the opportunity to learn new skills, collaborate with talented individuals, and develop this website.
+We would also like to thank the following people for their support and guidance throughout the development of this website:
+Without your help and support, this website would not have been possible. Thank you!
+
+We would like to give special thanks to GeeksforGeeks for organizing the hackathon that inspired our website. GeeksforGeeks is a leading online platform for learning computer science and programming. It offers a wide range of resources, including tutorials, articles, practice problems, and more. We are grateful for the opportunity to have participated in the hackathon and to have learned so much from the experience.
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
