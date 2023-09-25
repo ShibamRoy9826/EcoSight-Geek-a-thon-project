@@ -1,0 +1,231 @@
+,country,AvgPrice
+0,Libya,$0.007
+1,Angola,$0.013
+2,Sudan,$0.014
+3,Kyrgyzstan,$0.017
+4,Zimbabwe,$0.021
+5,Tajikistan,$0.023
+6,Uzbekistan,$0.027
+7,Guinea,$0.033
+8,Algeria,$0.033
+9,Kuwait,$0.033
+10,Ethiopia,$0.035
+11,Qatar,$0.036
+12,Bhutan,$0.036
+13,Yemen,$0.036
+14,Iraq,$0.039
+15,Kazakhstan,$0.039
+16,Mongolia,$0.041
+17,Egypt,$0.041
+18,Iran,$0.044
+19,Bahrain,$0.045
+20,Puerto Rico,$0.049
+21,Russian Federation,$0.050
+22,Myanmar,$0.050
+23,Azerbaijan,$0.051
+24,Oman,$0.052
+25,Mexico,$0.052
+26,Argentina,$0.053
+27,Trinidad and Tobago,$0.053
+28,Paraguay,$0.054
+29,Ukraine,$0.057
+30,Brunei Darussalam,$0.058
+31,Lebanon,$0.058
+32,Saudi Arabia,$0.061
+33,Tunisia,$0.061
+34,Serbia,$0.061
+35,Sri Lanka,$0.064
+36,Suriname,$0.065
+37,Afghanistan,$0.065
+38,Lao People's Democratic Republic,$0.066
+39,Belarus,$0.069
+40,Zambia,$0.056
+41,Tanzania,$0.069
+42,Malaysia,$0.070
+43,Poland,$0.070
+44,Turkey,$0.071
+45,Armenia,$0.072
+46,United Arab Emirates,$0.077
+47,South Africa,$0.076
+48,Syria,$0.078
+49,Nepal,$0.079
+50,Peru,$0.080
+51,Bangladesh,$0.080
+52,Vietnam,$0.081
+53,Lesotho,$0.081
+54,Pakistan,$0.081
+55,China,$0.084
+56,Timor-Leste,$0.085
+57,Moldova,$0.085
+58,Bosnia and Herzegovina,$0.085
+59,Macedonia,$0.086
+60,Georgia,$0.088
+61,New Caledonia,$0.091
+62,India,$0.092
+63,Malawi,$0.092
+64,Congo,$0.093
+65,Norway,$0.093
+66,Botswana,$0.096
+67,Croatia,$0.099
+68,Brazil,$0.099
+69,Slovakia,$0.100
+70,Hungary,$0.100
+71,Congo (Democratic Republic of),$0.100
+72,Indonesia,$0.101
+73,Côte d'Ivoire,$0.103
+74,Mozambique,$0.104
+75,Ecuador,$0.105
+76,Thailand,$0.107
+77,Costa Rica,$0.110
+78,São Tomé and Príncipe,$0.159
+79,Bolivia,$0.109
+80,Mauritius,$0.107
+81,United States,$0.109
+82,Namibia,$0.100
+83,Eswatini,$0.111
+84,Mayotte,$0.112
+85,St. Pierre and Miquelon,$0.114
+86,Albania,$0.116
+87,Montenegro,$0.116
+88,Niger,$0.117
+89,Åland Islands,$0.118
+90,Bulgaria,$0.124
+91,Canada,$0.124
+92,Ghana,$0.125
+93,Estonia,$0.125
+94,Uganda,$0.126
+95,Andorra,$0.127
+96,Mauritania,$0.128
+97,Isle of Man,$0.128
+98,Czech Republic,$0.130
+99,Morocco,$0.131
+100,South Korea,$0.133
+101,Cambodia,$0.134
+102,Romania,$0.134
+103,Cameroon,$0.136
+104,Israel,$0.136
+105,Guadeloupe,$0.137
+106,Madagascar,$0.137
+107,Finland,$0.138
+108,Nigeria,$0.139
+109,Sweden,$0.141
+110,Colombia,$0.139
+111,Taiwan,$0.142
+112,Cayman Islands,$0.142
+113,Fiji,$0.144
+114,Central African Republic,$0.143
+115,Togo,$0.144
+116,Saint-Martin (France),$0.145
+117,San Marino,$0.146
+118,Panama,$0.149
+119,Macau,$0.150
+120,Luxembourg,$0.151
+121,Chile,$0.151
+122,Saint Barthélemy (St. Barts),$0.154
+123,New Zealand,$0.153
+124,Latvia,$0.154
+125,Jersey,$0.155
+126,Iceland,$0.156
+127,Honduras,$0.156
+128,Equatorial Guinea,$0.158
+129,Kenya,$0.161
+130,Jordan,$0.161
+131,Maldives,$0.162
+132,Réunion,$0.163
+133,Caribbean Netherlands,$0.163
+134,Martinique,$0.164
+135,Guatemala,$0.164
+136,Sierra Leone,$0.165
+137,Philippines,$0.165
+138,French Guiana,$0.166
+139,Greece,$0.167
+140,Gibraltar,$0.171
+141,Burundi,$0.172
+142,Australia,$0.172
+143,Slovenia,$0.173
+144,Hong Kong,$0.173
+145,France,$0.173
+146,Lithuania,$0.173
+147,Chad,$0.174
+148,Guernsey,$0.174
+149,Aruba,$0.178
+150,Senegal,$0.179
+151,Monaco,$0.180
+152,Malta,$0.181
+153,"Palestine, State of",$0.181
+154,Gabon,$0.183
+155,Saint Vincent and the Grenadines,$0.185
+156,Cocos (Keeling) Islands,$0.187
+157,Christmas Island,$0.187
+158,Guam,$0.188
+159,Belize,$0.194
+160,Uruguay,$0.193
+161,Singapore,$0.195
+162,Benin,$0.195
+163,Austria,$0.196
+164,Papua New Guinea,$0.197
+165,Spain,$0.199
+166,Gambia,$0.200
+167,Portugal,$0.201
+168,Italy,$0.201
+169,Cyprus,$0.208
+170,Japan,$0.211
+171,Ireland,$0.213
+172,Nicaragua,$0.213
+173,Burkina Faso,$0.218
+174,Virgin Islands (British),$0.225
+175,Liechtenstein,$0.228
+176,Dominican Republic,$0.228
+177,El Salvador,$0.229
+178,Nauru,$0.228
+179,Dominica,$0.232
+180,Northern Mariana Islands,$0.233
+181,Rwanda,$0.206
+182,Switzerland,$0.236
+183,Guyana,$0.237
+184,Cape Verde,$0.236
+185,Belgium,$0.244
+186,Anguilla,$0.249
+187,Greenland,$0.250
+188,Jamaica,$0.250
+189,United Kingdom,$0.251
+190,Seychelles,$0.235
+191,French Polynesia,$0.259
+192,Haiti,$0.265
+193,American Samoa,$0.265
+194,Palau,$0.270
+195,Tuvalu,$0.271
+196,Saint Lucia,$0.272
+197,Turks and Caicos Islands,$0.273
+198,Faroe Islands,$0.280
+199,The Netherlands,$0.282
+200,Samoa,$0.292
+201,Montserrat,$0.285
+202,Bahamas,$0.285
+203,Kiribati,$0.285
+204,Sint Maarten,$0.287
+205,Djibouti,$0.289
+206,Grenada,$0.291
+207,Liberia,$0.299
+208,Comoros,$0.305
+209,Falkland Islands,$0.306
+210,Germany,$0.323
+211,Guinea-Bissau,$0.323
+212,Barbados,$0.332
+213,Saint Kitts and Nevis,$0.333
+214,Bermuda,$0.342
+215,Marshall Islands,$0.346
+216,Denmark,$0.350
+217,Tonga,$0.354
+218,Antigua and Barbuda,$0.367
+219,Mali,$0.375
+220,Cuba,$0.386
+221,Virgin Islands (U.S.),$0.411
+222,Somalia,$0.412
+223,Curaçao,$0.419
+224,Niue,$0.443
+225,Micronesia (Federated States of),$0.484
+226,Cook Islands,$0.523
+227,Vanuatu,$0.591
+228,Saint Helena,$0.612
+229,Solomon Islands,$0.692
