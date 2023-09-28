@@ -44,10 +44,10 @@ This is a repository of us 3 team members on this great hackathon organised by G
     </li>
     <br>
     <li>
-        <strong>Front-end developer/ UI designer:</strong> Ankush roy - an integral member of the our team, known for his exceptional front-end development skills, mathematical acumen, and mastery of C++. His artistic eye elevates user experiences, while his passion for mathematics enriches data insights. With a strong grasp of C++, Ankush seamlessly integrates backend functionalities. His adaptability and innovation align seamlessly with our mission to fuse data science and web development for transformative solutions.
+        <strong>Front-end developer/ UI designer:</strong> Ankush roy - An integral member of the our team, known for his exceptional front-end development skills, mathematical acumen, and mastery of C++. His artistic eye elevates user experiences, while his passion for mathematics enriches data insights. With a strong grasp of C++, Ankush seamlessly integrates backend functionalities. His adaptability and innovation align seamlessly with our mission to fuse data science and web development for transformative solutions.
     </li>
     <li>
-        <strong>Data Scientist :</strong> Swadhin Maharana  - a dynamic and accomplished individual who stands at the forefront of the exciting intersection of Data Science and Python programming. With an insatiable curiosity and a passion for unraveling complex patterns in data, Swadhin has established himself as a distinguished expert in his field.
+        <strong>Data Scientist :</strong> Swadhin Maharana  - A dynamic and accomplished individual who stands at the forefront of the exciting intersection of Data Science and Python programming. With an insatiable curiosity and a passion for unraveling complex patterns in data, Swadhin has established himself as a distinguished expert in his field.
     </li>
    
 </ul>
@@ -156,6 +156,8 @@ print(preds)
 ```
 
 You can change the inputs to get your required results, and that's how simple it is to use our model!
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 <h2 id="QNA">
 <b>QNA</b>
 </h2>
@@ -187,9 +189,11 @@ Just extract the zip file and follow the instructions in the readme.txt
 ### 7.What are the future plans for this website?
 => We are going to maintain our website even after this hackathon ends, we already have plans like tourism recommendation system, social media updates on ecology, and many more! the updates would be coming soon be ready!
 
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 <h2 id="key-findings">
 <b>Key Findings </b>
 </h2>
+
 ### From Air Quality Index
 <ul>
 <li>In the year 2020, there was a sudden decrease in the air pollution, and resulted in a good air quality index, Most probably this was due to Corona Virus.</li>
@@ -218,7 +222,7 @@ While our world is unmistakably progressing towards sustainability, the urgency 
 
 By embracing sustainable choices and advocating for change, we can accelerate this global transformation. Together, we have the power to safeguard our planet for generations to come. Let's work tirelessly, innovate relentlessly, and inspire one another to move swiftly towards a more sustainable future. Our planet's well-being depends on it.
 
-
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 <h2 id="data-source">
 <b>Data Source</b>
 </h2>
