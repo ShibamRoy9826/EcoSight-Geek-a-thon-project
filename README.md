@@ -244,4 +244,3 @@ We would also like to thank the following people for their support and guidance 
 Without your help and support, this website would not have been possible. Thank you!
 
 We would like to give special thanks to GeeksforGeeks for organizing the hackathon that inspired our website. GeeksforGeeks is a leading online platform for learning computer science and programming. It offers a wide range of resources, including tutorials, articles, practice problems, and more. We are grateful for the opportunity to have participated in the hackathon and to have learned so much from the experience.
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
