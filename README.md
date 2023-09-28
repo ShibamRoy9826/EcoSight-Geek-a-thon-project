@@ -62,6 +62,90 @@ Introducing the EcoSight  Analytics by our team for the GeeksforGeeks EcoTech Ha
 - Shibam Roy: Data Scientist / Back-end developer
 - Ankush Roy: Front-end Developer/ UI Designer
 - Swadhin Maharana: Data Scientist
+
+## Instructions for usage
+### Our overall project together:
+To check our overall project altogether, you can go to our project website <a href="https://ecosight.pythonanywhere.com/">here</a>
+You can explore it and start conserving nature from today onwards:)
+
+### Air Quality Index Model:
+
+1.Make sure to install python in your computer, in cause you don't have it installed, you can install it from <a href="www.python.org">Python's official website</a>
+
+2.Please download the model to your computer from here:
+<a href="https://drive.google.com/file/d/1uk9T_NtEy720BXKwOdFRbVcU8C0JGg9D/view?usp=drive_link">here</a>
+
+3.Once, you're done please install a few requirements, which you can do by running a few commands in your terminal/command prompt:
+Commands to run:
+```bash
+
+pip install joblib
+pip install numpy
+
+```
+
+And as soon as it's done, create a new .py file or python file, and add the follwing code:
+
+```python
+import numpy
+import joblib
+
+#The inputs ( Please change these inputs to get your results)
+yr=2023
+hr=16
+mnth=9
+day=1
+
+inpArray=numpy.array([[hr,day,yr,mnth]])
+# You may change the model directory if you want
+model=joblib.load("airQualityModel.pkl")
+print(model.predict(inpArray))
+
+```
+
+You can change the inputs to get your required results, and that's how simple it is to use our model!
+
+### Satellite Image Classification Model
+
+1.Make sure to install python in your computer, in cause you don't have it installed, you can install it from <a href="www.python.org">Python's official website</a>
+
+2.Please download the model to your computer from here:
+<a href="https://drive.google.com/file/d/1wGak27pnl5WaG2U6FSi16g6oJLu9Cg4d/view?usp=drive_link">here</a>
+
+3.Once, you're done please install a few requirements, which you can do by running a few commands in your terminal/command prompt:
+Commands to run:
+```bash
+
+pip install tensorflow
+pip install numpy
+
+```
+
+And as soon as it's done, create a new .py file or python file, and add the follwing code:
+
+```python
+import numpy
+from tensorflow.keras.models import load_model
+from tensorflow.keras.preprocessing import image
+
+# You may change this file path if you have a different one
+model=load_model("SuperImpModel.h5")
+
+# Please make sure to change this image path to your input image
+img = image.load_img("ChangeThisToYourImgPath", target_size=(224,224))
+x = image.img_to_array(img)
+x = numpy.expand_dims(x, axis=0)
+x = x / 255.0
+
+preds = model.predict(x)
+print(preds)
+# The predictions are in this order:
+# agriculture ,mine,empty,blooming ,blow,clear,cloudy,convolutionary Mine,cultivation,deforestation,haze,partlyCloudy,primary,road,logging,pollution,water
+# For example the first element in this list is the probability of agriculture
+```
+
+You can change the inputs to get your required results, and that's how simple it is to use our model!
+
 ## QNA
 ### 1.What our project basically targets to do?
 => Our project promotes sustainable environmental development and also features multiple applications such as a carbon footprint calculator , so that people are aware of their own carbon emission contributions, Not only does it calculate the carbon emissions it also suggests recommendations on how we can improve ourselves to have a better future!
@@ -82,7 +166,7 @@ Just extract the zip file and follow the instructions in the readme.txt
 => We are using python as a language for the overall logic and we are also using JavaScript in web development.For non-programming languages we are using html and css for web development.When it comes to libraries we are using matplotlib and seaborn because of their wonderful capabilities of creating visualizations, we are also using pandas and numpy for data management ,tensorflow keras for deep learning and sklearn for machine learning.
 
 ### 5.How is the backend working?
-=> For the backend and server hosting we are using free tier of python anywhere. As a framework we are working with Django.
+=> For the backend and server hosting we are using free tier of pythonanywhere. As a framework we are working with Django.
 
 ### 6.What is our project for?
 => Our project is solely made for sustainable environment development, we are creating it on the occasion of a wonderful hackathon organised by Geeksforgeeks which is called EchoTech, but besides for the hackathon we are also going to maintain this site after, and further developmental plans would be there for this website.
@@ -98,8 +182,10 @@ Just extract the zip file and follow the instructions in the readme.txt
 <li>Each day, during the time of 5AM , 12AM and 4-5PM, the air quality index shows a great change.This can be because these are considered as the business hours.</li>
 <li>Pollution was at its peak in the year of 2018, it gradually decreased to 2020, and it slightly started to raise by 2021, by which we can predict almost about by this year or maybe the next, it would cross the air pollution of 2017!</li>
 </ul>
+
 ### From Satellite image classification 
 Not much insights were found in this, we trained a deep learning model instead.
+
 ### From Carbon Footprint calculation
 <ul>
 <li>Most of the countries use Oil for their electricity production, which usually exerts about 730g of Carbon per 1KWh, which is a bad news!</li>
