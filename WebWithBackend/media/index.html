@@ -1,0 +1,225 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EcoSight</title>
+    <link rel="stylesheet" href={% static "libs/hamburgers.css" %}/>
+    <link rel="stylesheet" href={% static "libs/three-dots.css" %}/>
+    <link rel="stylesheet" href={% static "libs/three-dots.css.map" %} />
+    <link rel="stylesheet" href={% static "style.css" %} />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Condensed:wght@300&family=Ubuntu&display=swap" rel="stylesheet">
+<link rel="shortcut icon" type="image/x-icon" href="https://icons8.com/icon/0MFQfbNOO8ms/sustainability" />
+
+  </head>
+
+
+<body>
+    <!-- loading screen -->
+    <div id="loader">
+        <div class="dot-spin"></div>
+    </div>
+    <!-- navbar -->
+    <header id="navbar">
+        <h2 class="logo">EcoSight</h2>
+        <div class="hamburger hamburger--emphatic">
+            <div class="hamburger-sourceImg">
+                <div class="hamburger-inner"></div>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <!-- the contents -->
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about_us">ABOUT</a></li>
+                <li>
+                    <a href="#">PROJECT ▾</a>
+                    <ul>
+                        <!-- subcontents -->
+                        <li><a href="/CarbonCalc">Carbon Calculator</a></li>
+                        <li><a href="/SatelliteImg">Satellite Img Classifier</a></li>
+                        <li><a href="/AirPollution">Air quality index</a></li>
+                    </ul>
+                </li>
+                <li><a href="#acknowledgements">ACKNOWLEDGEMENT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- home page -->
+    <section class="container" id="home">
+        <div class="contained">
+            <!--<a href="#">-->
+            <!--    <img src={% static "src/LeftArrow.svg" %} alt="LeftArrow" /onclick="goPrev()">-->
+            <!--</a>-->
+            <!--<a href="#">-->
+            <!--    <img src= {% static "src/RightArrow.svg" %} alt="RightArrow" /onclick="goNext()">-->
+            <!--</a>-->
+            <!-- sliding parts (our projects and things we would like to share)-->
+            <div class="slidercontainer">
+                <div class="slides slider1">
+
+                    <h1 style="text-align:center;">Welcome to our website🎉!</h1>
+                    <p class="welcomePara">At EcoSight, we are passionately committed to safeguarding our planet's
+                        delicate
+                        ecosystems and championing the cause of sustainability. Our mission is to inspire and empower
+                        individuals,
+                        businesses, and communities to take meaningful steps towards a greener and more eco-conscious
+                        future.</p>
+
+                    <a href="/#about_us" class="coolButton">Let's Explore🔥!</a>
+                </div>
+                <div class="slides slider2">
+
+                    <h1 style="text-align:center;">Calculate Your Environmental Impact🌲</h1>
+                    <p class="welcomePara" > Use our Carbon Footprint Calculator to measure your carbon emissions and
+                        discover
+                        practical ways to reduce your environmental impact. By understanding your carbon footprint, you
+                        can take
+                        targeted steps to lower your carbon emissions and contribute to a more sustainable world.</p>
+
+                    <a href="/CarbonCalc" class="coolButton">Calculate now</a>
+                </div>
+                <div class="slides slider3">
+
+                    <h1 style="text-align:center;">Identify conditions of your locality🛰️</h1>
+                    <p class="welcomePara"> You can use our Satellite image classification, which classfies any given
+                        image by
+                        multiple tags, and identifies its deforestation rate or pollution rate, etc. It helps you to be
+                        alert about
+                        your locality, we created it with love❤️❤️❤️:)</p>
+
+                    <a href="/SatelliteImg" class="coolButton">Check now🔥</a>
+                </div>
+            </div>
+    </section>
+    <!-- about us -->
+    <section id="about_us" class="aboutus">
+        <div class="backgroundImg"></div>
+        <div class="member shibam fwoosh">
+            <img src={% static "src/Shibam.png" %} alt="teammember pixc" />
+            <h1>
+                Shibam Roy (Captian) <br />
+                <span>DataScientist</span>
+            </h1>
+            <br />
+            <p>
+                A passionate and skilled Data Scientist with a profound love for coding.
+                From childhood, Shibam has been dedicated to coding, resulting in an impressive portfolio of remarkable projects.
+                He has knowledge in C++ , Python, Data Science, and DSA. His analytical mindset, creativity, and effective communication make him a valuable asset to any data-driven team.
+            </p>
+        </div>
+        <div class="member swadhin fwoosh">
+            <img src={% static "src/Swadhin.png" %} alt="teammember pixc" />
+            <h1>
+                Swadhin Maharana <br />
+                <span>DataScientist</span>
+            </h1>
+            <br />
+            <p>
+                a dynamic and accomplished individual who stands at the forefront of the exciting intersection of Data Science and Python programming.
+                With an insatiable curiosity and a passion for unraveling complex patterns in data, Swadhin has established himself as a distinguished expert in his field.
+            </p>
+        </div>
+        <div class="member ankush fwoosh">
+            <img src={% static "src/Ankush.png" %} alt="teammember pixc" />
+            <h1>
+                Ankush Roy <br />
+                <span>FrontEndDev</span>
+            </h1>
+            <br />
+            <p>
+               an integral member of the our team, known for his exceptional front-end development skills, mathematical acumen, and mastery of C++.
+               His artistic eye elevates user experiences, while his passion for mathematics enriches data insights.
+               With a strong grasp of C++, Ankush seamlessly integrates backend functionalities.
+               His adaptability and innovation align seamlessly with our mission to fuse data science and web development for transformative solutions.
+            </p>
+        </div>
+    </section>
+    <!-- data sources -->
+    <section class="dataSources">
+        <h1 style="font-family: 'Ubuntu', sans-serif; text-align:center">Data Sources</h1>
+        <div class="boxcontainer" id="data_sources">
+            <div class="boxa sourceImg"></div>
+            <div class="boxb sourceImg"></div>
+            <div class="boxc sourceImg"></div>
+            <div class="boxd sourceImg"></div>
+            <div class="boxe sourceImg"></div>
+        </div>
+    </section>
+    <section class="SaveTheEarth">
+        <div class="wrapper">
+            <h1 class="motivationalSpeeches">We can save our environment together lets start from today and get to work
+            </h1>
+            <div class="statistics">
+                <div class="stat">
+                    <h1>2%</h1>
+                    <p>Pollution Growth Rate</p>
+                </div>
+                <div class="stat">
+                    <h1>15B</h1>
+                    <p>Trees cut</p>
+                </div>
+                <div class="stat">
+                    <h1>10 million hectares/year</h1>
+                    <p>Deforestation Rate</p>
+                </div>
+                <div class="stat">
+                    <h1>0.9%</h1>
+                    <p>Emission Growth</p>
+                </div>
+            </div>
+        </div>
+        <div class="image"></div>
+    </section>
+
+     <blockquote class="blockquote">
+        <p>So, Let's get into this movement to conserve nature and do a sustainable development</p>
+    </blockquote>
+    <br />
+    <blockquote class="otro-blockquote">
+        Nature is not a place to visit. It is home.
+        <span>-  Gary Snyder</span>
+    </blockquote>
+<section class="acknowledgement" id="acknowledgements">
+
+        <h1>Acknowledgments</h1>
+
+        <p>We would like to express our sincere gratitude to GeeksforGeeks for organizing the hackathon that inspired this
+            website. The hackathon was a well-organized and challenging event that provided us with the opportunity to
+            learn new skills, collaborate with talented individuals, and develop this website.</p>
+
+        <p>We would also like to thank the following people for their support and guidance throughout the development of
+            this website:</p>
+
+        <p>Without your help and support, this website would not have been possible. Thank you!</p>
+
+        <p class="gfg">GeeksforGeeks</p>
+
+        <p>We would like to give special thanks to GeeksforGeeks for organizing the hackathon that inspired our website.
+            GeeksforGeeks is a leading online platform for learning computer science and programming. It offers a wide
+            range of resources, including tutorials, articles, practice problems, and more. We are grateful for the
+            opportunity to have participated in the hackathon and to have learned so much from the experience.</p>
+
+        <p class="thanks">Thank you, GeeksforGeeks!</p>
+
+    </section>
+    <footer>
+        <div class="footer-content">
+            <h3>EcoSight</h3>
+            <p>We love to conserve the nature and so should you! hope you enjoy our website and get in the movement to promote more sustainable development!You can check the project code <a href="https://github.com/ShibamRoy9826/EcoSight-Geek-a-thon-project">here</a></a></p>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src={% static "app.js" %}></script>
+</body>
+
+</html>

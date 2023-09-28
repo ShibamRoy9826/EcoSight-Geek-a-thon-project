@@ -1,0 +1,260 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EcoSight - Air Quality Index</title>
+    <link rel="stylesheet" href={% static "libs/hamburgers.css" %} />
+    <link rel="stylesheet" href={% static "libs/three-dots.css" %} />
+    <link rel="stylesheet" href={% static "libs/three-dots.css.map" %} />
+    <link rel="stylesheet" href={% static "airQuality.css" %} />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Condensed:wght@300&family=Ubuntu&display=swap" rel="stylesheet">
+<link rel="shortcut icon" type="image/x-icon" href="https://icons8.com/icon/0MFQfbNOO8ms/sustainability" />
+  </head>
+  <body>
+    <div id="loader">
+      <div class="dot-elastic"></div>
+    </div>
+    <header id="navbar">
+      <div class="nav_blur"></div>
+      <h2 class="logo">EcoSight</h2>
+      <div class="hamburger hamburger--emphatic">
+        <div class="hamburger-box">
+          <div class="hamburger-inner"></div>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="/">HOME</a></li>
+          <li><a href="/#about_us">ABOUT</a></li>
+
+          <li>
+            <a href="#">PROJECT ▾</a>
+            <ul>
+              <li><a href="/CarbonCalc">Carbon Footprint</a></li>
+              <li><a href="/SatelliteImg">Satellite ImgClassifier</a></li>
+              <li><a href="/AirPollution">Air Quality</a></li>
+            </ul>
+          </li>
+          <li><a href="/#acknowledgements">ACKNOWLEDGEMENT</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Navbar ends -->
+
+
+    <!-- Heading and basic description -->
+    <section id="Home">
+      <div class="container">
+        <h1>Air Quality Index Analysis</h1>
+        <p>
+          We have analyzed the past 5 years of Air pollution index data of India
+          and also drew out wonderful insights from the data! you can explore
+          all of our work right here!
+        </p>
+        <a href="#Insights" class="coolButton">Explore Insights🔥</a>
+      </div>
+    </section>
+    <!-- basic ends here -->
+
+    <hr />
+
+    <!-- Procedure Starts here -->
+    <section id="Process">
+      <h1>Process</h1>
+      <p>
+        In the process section of the Air Quality Index dataset analysis,
+        thorough data preparation was executed. This involved addressing missing
+        values and outliers, ensuring data accuracy. Statistical methods and
+        data visualization tools were then applied to uncover patterns and
+        correlations within air quality parameters. Summary statistics and
+        descriptive summaries were calculated to gain insights into central
+        tendencies and distributions. This meticulous process was crucial in
+        rendering the dataset ready for interpretation, enabling the formulation
+        of informed conclusions about air quality trends.
+      </p>
+      <strong>
+        <ul>
+          <li class="Litem">
+            We started by Downloading the dataset from kaggle
+            <a
+              href="https://www.kaggle.com/datasets/fedesoriano/air-quality-data-in-india"
+              >here</a
+            >
+          </li>
+          <li class="Litem">
+            Then we loaded our dataset as a data frame by the use of Pandas.
+          </li>
+          <li class="Litem">
+            Basically the data had multiple columns like Hour, Month,Year,Day,
+            Timestamp/date, and the air quality index.
+          </li>
+          <li class="Litem">
+            We further explored the dataset and found out to be quality data ,
+            and it had no missing data points at all!
+          </li>
+          <li class="Litem">
+            We also made multiple visualizations to further deep dive into the
+            data
+          </li>
+          <li class="Litem">
+            You can check out everything in depth
+            <a
+              href="https://github.com/ShibamRoy9826/EcoSight-Geek-a-thon-project/tree/main/Models/AirQuality"
+              >here</a
+            >(check readme.txt to run the ML model)
+          </li>
+
+        </ul>
+      </strong>
+    </section>
+
+    <hr />
+    <!-- Procedure ends here -->
+
+    <section id="Insights">
+      <h1>Insights</h1>
+      <p>
+        In the insights section of the Air Quality Index dataset analysis, key
+        findings emerged from the processed data. Patterns and correlations
+        among air quality parameters were identified through statistical
+        analysis and visual representations. These insights shed light on trends
+        in air quality over time, highlighting notable variations and potential
+        factors influencing air quality. The analysis unveiled valuable
+        information, enabling a better understanding of the dataset and the
+        broader implications for air quality monitoring and environmental
+        considerations.They are as follows:
+      </p>
+      <strong>
+        <ul>
+          <li class="Litem">
+            In the year 2020, there was a sudden decrease in the air pollution,
+            and resulted in a good air quality index, Most probably this was due
+            to Corona Virus.
+          </li>
+          <li class="Litem">
+            Each year, especially in the month of August, we have good air
+            quality index, this should usually happen due to the phenomenon
+            called "Wet Deposition"
+          </li>
+          <li class="Litem">
+            Each day, during the time of 5AM , 12AM and 4-5PM, the air quality
+            index shows a great change.This can be because these are considered
+            as the business hours.
+          </li>
+          <li class="Litem">
+            Pollution was at its peak in the year of 2018, it gradually
+            decreased to 2020, and it slightly started to raise by 2021, by
+            which we can predict almost about by this year or maybe the next, it
+            would cross the air pollution of 2017!
+          </li>
+        </ul>
+      </strong>
+    </section>
+    <!-- Insights end here -->
+
+    <br /><br />
+    <hr />
+
+    <!-- Visualizations start here -->
+
+    <section id="Viz">
+      <h1>Visualizations</h1>
+
+      <div class="VizContainer">
+        <div class="VizItem">
+          <a href={% static "src/AirQualityPerYear.png" %}>
+            <img
+              src={% static "src/AirQualityPerYear.png" %}
+              class="responsiveImg"
+              id="img1"
+            />
+            <div class="overlay">
+              <div class="text"><span>A.Q Per Year</span><br />Line Plot</div>
+            </div>
+          </a>
+        </div>
+
+        <div class="VizItem">
+          <a href={% static "src/AirQualityPerMonth.png" %}>
+            <img
+              src={% static "src/AirQualityPerMonth.png" %}
+              class="responsiveImg"
+              id="img2"
+            />
+            <div class="overlay">
+              <div class="text"><span>A.Q Per Month</span><br />Line Plot</div>
+            </div>
+          </a>
+        </div>
+
+        <div class="VizItem">
+          <a href={% static "src/AirQualityPerDayPerMonth.png" %}>
+            <img
+              src={% static "src/AirQualityPerDayPerMonth.png" %}
+              class="responsiveImg"
+              id="img3"
+            />
+            <div class="overlay">
+              <div class="text">
+                <span>A.Q Per Day per Month</span><br />Line Plot
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="VizItem">
+          <a href={% static "src/AirQualityPerDay.png" %}>
+            <img
+              src={% static "src/AirQualityPerDay.png" %}
+              class="responsiveImg"
+              id="img4"
+            />
+            <div class="overlay">
+              <div class="text"><span>A.Q Per Day</span><br />Line Plot</div>
+            </div>
+          </a>
+        </div>
+
+        <div class="VizItem">
+          <a href={% static "src/AirQuality.png" %}>
+            <img src={% static "src/AirQuality.png" %} class="responsiveImg" id="img5" />
+            <div class="overlay">
+              <div class="text"><span>A.Q Overall</span><br />Line Plot</div>
+            </div>
+          </a>
+        </div>
+
+        <div class="VizItem">
+          <a href={% static "src/ModelPredictions.png" %}>
+            <img src={% static "src/ModelPredictions.png" %} class="responsiveImg" id="img5" />
+            <div class="overlay">
+              <div class="text"><span>Model Performance</span><br />Plot</div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <br /><br /><br />
+
+    <!-- Visualizations end here -->
+
+    <!-- Footer starts here -->
+    <footer>
+        <div class="footer-content">
+            <h3>EcoSight</h3>
+            <p>We love to conserve the nature and so should you! hope you enjoy our website and get in the movement to promote more sustainable development!You can check the project code <a href="https://github.com/ShibamRoy9826/EcoSight-Geek-a-thon-project">here</a></a></p>
+
+        </div>
+    </footer>
+
+
+    <!-- Footer ends here -->
+  </body>
+  <script src={% static "airQuality.js" %}></script>
+</html>

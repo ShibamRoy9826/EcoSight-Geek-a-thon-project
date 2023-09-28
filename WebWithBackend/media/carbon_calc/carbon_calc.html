@@ -1,0 +1,345 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EcoSight - Carbon Calculator</title>
+    <link rel="stylesheet" href={% static 'libs/hamburgers.css' %} />
+    <link rel="stylesheet" href={% static 'libs/three-dots.css' %} />
+    <link rel="stylesheet" href={% static 'libs/three-dots.css.map' %} />
+    <link rel="stylesheet" href={% static 'carbon_calc.css' %} />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Condensed:wght@300&display=swap"
+      rel="stylesheet"
+    />
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Condensed:wght@300&family=Ubuntu&display=swap" rel="stylesheet">
+<link rel="shortcut icon" type="image/x-icon" href="https://icons8.com/icon/0MFQfbNOO8ms/sustainability" />
+  </head>
+  <body>
+    <div id="loader">
+      <div class="dot-elastic"></div>
+    </div>
+    <header id="navbar">
+      <div class="nav_blur"></div>
+      <h2 class="logo">EcoSight</h2>
+      <div class="hamburger hamburger--emphatic">
+        <div class="hamburger-box">
+          <div class="hamburger-inner"></div>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="/">HOME</a></li>
+          <li><a href="/#about_us">ABOUT</a></li>
+
+          <li>
+            <a href="#">PROJECT ▾</a>
+            <ul class="demo">
+              <li><a href="/CarbonCalc" id="carbon">Carbon Calculator</a></li>
+              <li><a href="/SatelliteImg" id="amazon">Satellite Img Classifier</a></li>
+              <li><a href="/AirPollution" id="airPol">Air Pollution Index</a></li>
+            </ul>
+          </li>
+          <li><a href="/#acknowledgements">ACKNOWLEDGEMENT</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Navbar ends -->
+<style>
+    /* footer start */
+footer {
+  position: relative;
+  top: 70%;
+  background: #111;
+  height: auto;
+  width: 100vw;
+  padding-top: 40px;
+  color: #fff;
+}
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content h3 {
+  font-size: 2.1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+.footer-content p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+  color: #cacdd2;
+}
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.socials li {
+  height: 2rem;
+  width: 2rem;
+  background-color: #000501;
+  border-radius: 50%;
+  margin: 0 10px;
+}
+
+.socials li:nth-child(1) {
+  background-image: url("src/github-mark-white.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.socials li:nth-child(2) {
+  background-image: url("src/github-mark-white.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.socials li:nth-child(3) {
+  background-image: url("src/github-mark-white.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.socials li:nth-child(4) {
+  background-image: url("src/github-mark-white.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.socials li:nth-child(5) {
+  background-image: url("src/github-mark-white.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.socials a {
+  text-decoration: none;
+  padding: 5px;
+}
+@media (max-width: 500px) {
+  .footer-menu ul {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+}
+/* footer end */
+</style>
+    <!-- Heading and basic description -->
+    <section id="Form">
+      <div class="container">
+        <h1>Carbon Footprint Calculator</h1>
+        <form action="carbonResults">
+            {%csrf_token%}
+          <!-- <label>1.Which Country do you belong to?</label> -->
+          <input type="text" name="Country" id="Country"placeholder="Your country name, for ex. India" required>
+          <!-- <label>2.How much distances do you cover daily by vehicles(in km)?</label> -->
+          <input type="number" name="DailyDist" id="DailyDist" placeholder="Your daily vehicle distance in km, for ex. 3" required>
+          <!-- <label>3.How long distances do you cover by Aeroplanes each year?(in km)(enter 0 if not applicable)</label> -->
+          <input type="number" name="AirDist" id="AirDist" placeholder="Your distances covered by air vehicles in km, for ex. 600" required>
+          <!-- <label>4.How much long distances do you cover each year, in train,etc.?(in km)(enter 0 if not applicable)</label> -->
+          <input type="number" name="LandDist" id="LandDist" placeholder="Your distances covered by land vehicles in km, for ex. 800" required>
+          <!-- <label>5.What is your monthly electricity bill? (in $)</label> -->
+          <input type="number" name="ElecBill" id="ElecBill" placeholder="Your monthly electricity bill in $, for ex. 40" required>
+
+          <!-- <label>6.What is your monthly gas bill? (in $)</label> -->
+          <input type="number" name="GasBill" id="GasBill" placeholder="Your monthly gas bill in $, for ex. 10" required>
+
+          <input type="submit" name="SubmitButton" id="coolButton">
+
+        </form>
+      </div>
+    </section>
+    <!-- basic ends here -->
+
+    <hr />
+
+    <!-- Procedure Starts here -->
+    <section id="Process">
+      <h1>Process</h1>
+      <p>
+       The process of analyzing carbon footprint calculation and constructing a model for it is a multifaceted endeavor. It entails meticulous data collection, assessing emissions from various sources, and determining their environmental impact. This data is then integrated into a comprehensive model, which considers factors like energy usage, transportation, and production methods. The resulting model serves as a valuable tool for individuals, businesses, and governments to make informed decisions and take meaningful steps towards reducing their carbon footprint, thereby contributing to a more sustainable future.
+      </p>
+      <strong>
+        <ul>
+          <li class="Litem">
+            We started by collecting multiple data from sources like
+            <a
+              href="https://ourworldindata.org"
+              >ourworldindata</a
+            >, <a href="https://www.statista.com/statistics/263492/electricity-prices-in-selected-countries/">statistica</a> and <a href="https://dewesoft.com/blog/countries-electricity-source">dewesoft</a>
+          </li>
+          <li class="Litem">
+            Then we loaded our dataset as a data frame by the use of Pandas.
+          </li>
+          <li class="Litem">
+            Data collection was the toughest part of this section, but we were able to collect quality data.
+          </li>
+          <li class="Litem">
+            We further researched about emmissions and there calculations, how much carbon dioxide is emmitted in an activity etc.
+          </li>
+          <li class="Litem">
+            We also made multiple visualizations to further deep dive into the
+            data
+          </li>
+          <li class="Litem">
+            You can check out everything in depth
+            <a
+              href="https://github.com/ShibamRoy9826/EcoSight-Geek-a-thon-project/tree/main/Models/AirQuality"
+              >here</a
+            >
+          </li>
+
+        </ul>
+      </strong>
+    </section>
+
+    <hr />
+    <!-- Procedure ends here -->
+
+    <section id="Insights">
+      <h1>Insights</h1>
+      <p>
+        In the insights section of the Carbon Calculator dataset analysis, key
+        findings emerged from the processed data. Patterns and correlations
+        among multiple parameters were identified through statistical
+        analysis and visual representations. These insights shed light on trends
+        in carbon emmissions over time, highlighting notable variations and potential
+        factors influencing carbon footprints. The analysis unveiled valuable
+        information, enabling a better understanding of the dataset and the
+        broader implications for carbon footprint monitoring and environmental
+        considerations.They are as follows:
+      </p>
+      <strong>
+        <ul>
+          <li class="Litem">
+            Most of the countries use Oil for their electricity production, which usually exerts about 730g of Carbon per 1KWh, which is a bad news!
+          </li>
+          <li class="Litem">
+            On an average electricity costs about $0.16 globally.
+          </li>
+          <li class="Litem">
+            Globally, on an average each person emmits about 4.61 tonnes of carbon each year, while the target emmissions are less than or equal to 2.5 tonnes!
+          </li>
+          <li class="Litem">
+            Carbon Dioxide mostly from gas is around 1.3 tonnes per year per person!
+          </li>
+        </ul>
+      </strong>
+      <br /><br />
+    </section>
+    <!-- Insights end here -->
+
+
+    <hr />
+
+    <!-- Visualizations start here -->
+
+    <!--<section id="Viz">-->
+
+    <!--  <h1>Visualizations</h1>-->
+
+    <!--  <div class="VizContainer">-->
+    <!--    <div class="VizItem">-->
+    <!--      <a href="../src/AirQualityPerYear.png">-->
+    <!--        <img-->
+    <!--          src="../src/AirQualityPerYear.png"-->
+    <!--          class="responsiveImg"-->
+    <!--          id="img1"-->
+    <!--        />-->
+    <!--        <div class="overlay">-->
+    <!--          <div class="text"><span>A.Q Per Year</span><br />Line Plot</div>-->
+    <!--        </div>-->
+    <!--      </a>-->
+    <!--    </div>-->
+
+    <!--    <div class="VizItem">-->
+    <!--      <a href="../src/AirQualityPerMonth.png">-->
+    <!--        <img-->
+    <!--          src="../src/AirQualityPerMonth.png"-->
+    <!--          class="responsiveImg"-->
+    <!--          id="img2"-->
+    <!--        />-->
+    <!--        <div class="overlay">-->
+    <!--          <div class="text"><span>A.Q Per Month</span><br />Line Plot</div>-->
+    <!--        </div>-->
+    <!--      </a>-->
+    <!--    </div>-->
+
+    <!--    <div class="VizItem">-->
+    <!--      <a href="../src/AirQualityPerDayPerMonth.png">-->
+    <!--        <img-->
+    <!--          src="../src/AirQualityPerDayPerMonth.png"-->
+    <!--          class="responsiveImg"-->
+    <!--          id="img3"-->
+    <!--        />-->
+    <!--        <div class="overlay">-->
+    <!--          <div class="text">-->
+    <!--            <span>A.Q Per Day per Month</span><br />Line Plot-->
+    <!--          </div>-->
+    <!--        </div>-->
+    <!--      </a>-->
+    <!--    </div>-->
+
+    <!--    <div class="VizItem">-->
+    <!--      <a href="../src/AirQualityPerDay.png">-->
+    <!--        <img-->
+    <!--          src="../src/AirQualityPerDay.png"-->
+    <!--          class="responsiveImg"-->
+    <!--          id="img4"-->
+    <!--        />-->
+    <!--        <div class="overlay">-->
+    <!--          <div class="text"><span>A.Q Per Day</span><br />Line Plot</div>-->
+    <!--        </div>-->
+    <!--      </a>-->
+    <!--    </div>-->
+
+    <!--    <div class="VizItem">-->
+    <!--      <a href="../src/AirQuality.png">-->
+    <!--        <img src="../src/AirQuality.png" class="responsiveImg" id="img5" />-->
+    <!--        <div class="overlay">-->
+    <!--          <div class="text"><span>A.Q Overall</span><br />Line Plot</div>-->
+    <!--        </div>-->
+    <!--      </a>-->
+    <!--    </div>-->
+
+    <!--    <div class="VizItem">-->
+    <!--      <a href="../src/ModelPredictions.png">-->
+    <!--        <img src="../src/ModelPredictions.png" class="responsiveImg" id="img5" />-->
+    <!--        <div class="overlay">-->
+    <!--          <div class="text"><span>Model Performance</span><br />Plot</div>-->
+    <!--        </div>-->
+    <!--      </a>-->
+    <!--    </div>-->
+    <!--  </div>-->
+    <!--</section>-->
+    <!--<br /><br /><br />-->
+
+    <!-- Visualizations end here -->
+
+    <!-- Footer starts here -->
+    <footer>
+        <div class="footer-content">
+            <h3>EcoSight</h3>
+            <p>We love to conserve the nature and so should you! hope you enjoy our website and get in the movement to promote more sustainable development!You can check the project code <a href="https://github.com/ShibamRoy9826/EcoSight-Geek-a-thon-project">here</a></a></p>
+
+        </div>
+    </footer>
+
+
+    <!-- Footer ends here -->
+  </body>
+  <script src={% static "carbon_calc.js" %}></script>
+</html>

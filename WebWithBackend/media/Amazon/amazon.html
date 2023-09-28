@@ -1,0 +1,269 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazon</title>
+    <link rel="stylesheet" href={% static 'libs/hamburgers.css' %} />
+    <link rel="stylesheet" href={% static 'libs/three-dots.css' %}/>
+    <link rel="stylesheet" href={% static 'libs/three-dots.css.map' %} />
+    <link rel="stylesheet" href="{% static 'amazon.css' %}" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Condensed:wght@300&display=swap"
+      rel="stylesheet"
+    />
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Condensed:wght@300&family=Ubuntu&display=swap" rel="stylesheet">
+<link rel="shortcut icon" type="image/x-icon" href="https://icons8.com/icon/0MFQfbNOO8ms/sustainability" />
+  </head>
+  <body>
+    <div id="loader">
+      <div class="dot-elastic"></div>
+    </div>
+    <header id="navbar">
+      <div class="nav_blur"></div>
+      <h2 class="logo">EcoSight</h2>
+      <div class="hamburger hamburger--emphatic">
+        <div class="hamburger-box">
+          <div class="hamburger-inner"></div>
+        </div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="/">HOME</a></li>
+          <li><a href="/#about_us">ABOUT</a></li>
+
+          <li>
+            <a href="#">PROJECT ▾</a>
+            <ul class="demo">
+              <li><a href="/CarbonCalc" id="carbon">Carbon Calculator</a></li>
+              <li><a href="/SatelliteImg" id="amazon">Satellite Img Classifier</a></li>
+              <li><a href="/AirPollution" id="airPol">Air Quality Index</a></li>
+            </ul>
+          </li>
+          <li><a href="/#acknowledgements">ACKNOWLEDGEMENT</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Navbar ends -->
+
+    <!-- Heading and basic description -->
+    <section id="Form">
+      <div class="container">
+        <h1>Satellite Image classification</h1>
+        <form action="satelliteResults" method="post" enctype="multipart/form-data">
+            {% csrf_token %}
+
+          <!-- <label>1.Which Country do you belong to?</label> -->
+          <input type="text" name="Name" placeholder="Enter your name(optional)">
+          <!-- <input type="text" name="Name" id="locationInp" placeholder="Enter any location you want to analyze" required> -->
+ <!--<ul id="suggestions"></ul> -->
+
+            <input type="text" name="Name" placeholder="Please share your email(optional)">
+
+
+            <label>Please enter a satellite image(Instructions given below)</label>
+
+          <input type="file" id="myimage" name="image" enctype="multipart/form-data" accept=".jpg, .jpeg, .png" required>
+
+
+          <input type="submit" name="SubmitButton" class="coolButton">
+
+        </form>
+      </div>
+    </section>
+    <!-- basic ends here -->
+
+    <hr />
+    <!-- Instructions start here -->
+<section id="Instructions">
+      <h1>Instructions</h1>
+      <p>
+        Here we are demonsrating for laptops and desktops however
+       almost all devices have similar steps just a little changes, incase you require any help you can contact to royshibam9826@gmail.com, we will help you within 24hours for sure:)
+      </p>
+      <strong>
+        <ul>
+          <li class="Litem">
+            Please start by going to
+            <a
+              href="https://maps.google.com/"
+              >Google Maps</a>
+          </li>
+          <li class="Litem">
+            Select layers in the bottom left of your screen, to change your view to satellite view.
+          </li>
+          <li class="Litem">
+            Now click on "+" and "-" icons till your scale is at 200ft.(the scale is mentioned right below the "-" icon)
+          </li>
+          <li class="Litem">
+          Please take a screenshot of your satellite image
+          </li>
+          <li class="Litem">
+            As a final step you can crop the image to remove unneccessary portions(not removing this will highly effect the predictions)
+          </li>
+          <li class="Litem">
+            That's it! now you can simply upload this image here(above in the form).
+
+          </li>
+
+        </ul>
+      </strong>
+    </section>
+
+    <hr />
+
+    <!-- Instructions end here -->
+    <!-- Procedure Starts here -->
+    <section id="Process">
+      <h1>Process</h1>
+      <p>
+       The "Satellite Image Classification" project began with data acquisition from Amazon's satellite imagery resources. The collected images were preprocessed to ensure uniformity and compatibility. Subsequently, a suitable deep learning model was selected and customized to the specific classification tasks. The model underwent rigorous training and validation stages, with hyperparameter tuning and transfer learning as part of the refinement process. The final evaluation demonstrated the model's effectiveness in accurately classifying objects and features within the satellite images, meeting the project's objectives.Or more step by step:
+      </p>
+      <strong>
+        <ul>
+          <li class="Litem">
+            We started by downloading data from kaggle,
+            <a
+              href="https://www.kaggle.com/datasets/prosperchuks/amazonsatelliteimages"
+              >here</a>
+          </li>
+          <li class="Litem">
+            After loading it we started exploring it and it contained about 40,000 images! all of the images were classified on multiple tags
+          </li>
+          <li class="Litem">
+            We started by counting clasifications and found out most of the images were from "primary" category, we also made visualizations for that.
+          </li>
+          <li class="Litem">
+            We added multiple columns to the labels, and basically created binary classifications for each tag, 0 if they are not present and else 1.
+          </li>
+          <li class="Litem">
+            Then we used a ResNet50 model as a base model, and used a few more layers to train our overall model
+          </li>
+
+          <li class="Litem">
+            We did some basic evaluation too, you can check everything
+            <a
+              href="https://github.com/ShibamRoy9826/EcoSight-Geek-a-thon-project/tree/main/Models/AmazonModel"
+              >here</a
+            >
+          </li>
+
+          <li class="Litem">
+            The model is available to download <a href="#">here</a>.
+          </li>
+
+        </ul>
+      </strong>
+    </section>
+
+    <hr />
+    <!-- Procedure ends here -->
+
+    <!-- Insights end here -->
+
+
+    <hr />
+
+    <!-- Visualizations start here -->
+
+    <section id="Viz">
+
+      <h1>Visualizations</h1>
+
+      <div class="VizContainer">
+        <div class="VizItem">
+          <a href={% static "src/CountOfTags.png" %}>
+            <img
+              src={% static "src/CountOfTags.png" %}
+              class="responsiveImg"
+              id="img1"
+            />
+            <div class="overlay">
+              <div class="text"><span>Count of tags</span><br />Bar Graph</div>
+            </div>
+          </a>
+        </div>
+
+        <!--<div class="VizItem">-->
+        <!--  <a href="../src/AirQualityPerMonth.png">-->
+        <!--    <img-->
+        <!--      src="../src/AirQualityPerMonth.png"-->
+        <!--      class="responsiveImg"-->
+        <!--      id="img2"-->
+        <!--    />-->
+        <!--    <div class="overlay">-->
+        <!--      <div class="text"><span>A.Q Per Month</span><br />Line Plot</div>-->
+        <!--    </div>-->
+        <!--  </a>-->
+        <!--</div>-->
+
+        <!--<div class="VizItem">-->
+        <!--  <a href="../src/AirQualityPerDayPerMonth.png">-->
+        <!--    <img-->
+        <!--      src="../src/AirQualityPerDayPerMonth.png"-->
+        <!--      class="responsiveImg"-->
+        <!--      id="img3"-->
+        <!--    />-->
+        <!--    <div class="overlay">-->
+        <!--      <div class="text">-->
+        <!--        <span>A.Q Per Day per Month</span><br />Line Plot-->
+        <!--      </div>-->
+        <!--    </div>-->
+        <!--  </a>-->
+        <!--</div>-->
+
+        <!--<div class="VizItem">-->
+        <!--  <a href="../src/AirQualityPerDay.png">-->
+        <!--    <img-->
+        <!--      src="../src/AirQualityPerDay.png"-->
+        <!--      class="responsiveImg"-->
+        <!--      id="img4"-->
+        <!--    />-->
+        <!--    <div class="overlay">-->
+        <!--      <div class="text"><span>A.Q Per Day</span><br />Line Plot</div>-->
+        <!--    </div>-->
+        <!--  </a>-->
+        <!--</div>-->
+
+        <!--<div class="VizItem">-->
+        <!--  <a href="../src/AirQuality.png">-->
+        <!--    <img src="../src/AirQuality.png" class="responsiveImg" id="img5" />-->
+        <!--    <div class="overlay">-->
+        <!--      <div class="text"><span>A.Q Overall</span><br />Line Plot</div>-->
+        <!--    </div>-->
+        <!--  </a>-->
+        <!--</div>-->
+
+        <!--<div class="VizItem">-->
+        <!--  <a href="../src/ModelPredictions.png">-->
+        <!--    <img src="../src/ModelPredictions.png" class="responsiveImg" id="img5" />-->
+        <!--    <div class="overlay">-->
+        <!--      <div class="text"><span>Model Performance</span><br />Plot</div>-->
+        <!--    </div>-->
+        <!--  </a>-->
+        <!--</div>-->
+      </div>
+    </section>
+    <br /><br /><br />
+
+    <!-- Visualizations end here -->
+
+    <!-- Footer starts here -->
+    <footer>
+        <div class="footer-content">
+            <h3>EcoSight</h3>
+            <p>We love to conserve the nature and so should you! hope you enjoy our website and get in the movement to promote more sustainable development!You can check the project code <a href="https://github.com/ShibamRoy9826/EcoSight-Geek-a-thon-project">here</a></a></p>
+
+        </div>
+    </footer>
+
+
+    <!-- Footer ends here -->
+  </body>
+
+  <script src={% static "amazon.js" %}></script>
+</html>
