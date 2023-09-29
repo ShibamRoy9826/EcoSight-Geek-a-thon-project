@@ -129,6 +129,7 @@ header ul li:hover ul {
 }
 
 .hamburger {
+  padding-left:15px;
   display: none;
   overflow: hidden;
 }
