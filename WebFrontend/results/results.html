@@ -1,0 +1,355 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EcoSight - Results Carbon Calculator</title>
+    <link rel="stylesheet" href='libs/hamburgers.css'  />
+    <link rel="stylesheet" href='libs/three-dots.css'  />
+    <link rel="stylesheet" href='libs/three-dots.css.map'  />
+    <link rel="stylesheet" href='results.css'  />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Condensed:wght@300&family=Ubuntu&display=swap" rel="stylesheet">
+<link rel="shortcut icon" type="image/x-icon" href="https://icons8.com/icon/0MFQfbNOO8ms/sustainability" />
+  </head>
+  <body>
+    <div id="loader">
+      <div class="dot-elastic"></div>
+    </div>
+    <header id="navbar">
+      <h2 class="logo">EcoSight</h2>
+      <div class="hamburger hamburger--emphatic">
+        <div class="hamburger-box">
+          <div class="hamburger-inner"></div>
+        </div>
+      </div>
+      <nav>
+            <ul>
+                <!-- the contents -->
+                <li><a href="../index.html#home">HOME</a></li>
+                <li><a href="../index.html#about_us">ABOUT</a></li>
+                <li>
+                    <a href="#">PROJECT ▾</a>
+                    <ul>
+                        <!-- subcontents -->
+                        <li><a href="../carbon_calc/carbon_calc.html">Carbon Calculator</a></li>
+                        <li><a href="../Amazon/amazon.html">Satellite Img Classifier</a></li>
+                        <li><a href="../AirPollution/airQuality.html">Air quality index</a></li>
+                    </ul>
+                </li>
+                <li><a href="../index.html#acknowledgements">ACKNOWLEDGEMENT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+      <div class="svgContainer">
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <!-- Created with Inkscape (http://www.inkscape.org/) -->
+        <svg
+          width="97mm"
+          height="96mm"
+          viewBox="0 0 194.55634 192.55634"
+          version="1.1"
+          id="svg5"
+          inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+          sodipodi:docname="Circle.svg"
+          xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+          xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:svg="http://www.w3.org/2000/svg"
+        >
+          <sodipodi:namedview
+            id="namedview7"
+            pagecolor="#505050"
+            bordercolor="#ffffff"
+            borderopacity="1"
+            inkscape:pageshadow="0"
+            inkscape:pageopacity="0"
+            inkscape:pagecheckerboard="1"
+            inkscape:document-units="mm"
+            showgrid="false"
+            width="192.55634mm"
+            height="192.55634mm"
+            inkscape:zoom="0.46057099"
+            inkscape:cx="888.02815"
+            inkscape:cy="373.44949"
+            inkscape:window-width="1365"
+            inkscape:window-height="741"
+            inkscape:window-x="0"
+            inkscape:window-y="0"
+            inkscape:window-maximized="1"
+            inkscape:current-layer="layer1"
+          />
+          <defs id="defs2">
+            <inkscape:path-effect
+              effect="spiro"
+              id="path-effect529"
+              is_visible="true"
+              lpeversion="1"
+            />
+            <inkscape:path-effect
+              effect="spiro"
+              id="path-effect492"
+              is_visible="true"
+              lpeversion="1"
+            />
+            <inkscape:path-effect
+              effect="spiro"
+              id="path-effect455"
+              is_visible="true"
+              lpeversion="1"
+            />
+            <inkscape:path-effect
+              effect="spiro"
+              id="path-effect68"
+              is_visible="true"
+              lpeversion="1"
+            />
+          </defs>
+          <g
+            inkscape:label="Layer 1"
+            inkscape:groupmode="layer"
+            id="layer1"
+            transform="translate(-10.004016,-31.460533)"
+          >
+            <path
+              style="
+                fill: none;
+                /*change this color to change the color of the circle*/
+                stroke: #d017e0;
+                stroke-width: 2px;
+                stroke-linecap: butt;
+                stroke-linejoin: miter;
+                stroke-opacity: 1;
+              "
+              d="m 32.152404,71.113833 c -14.9802,19.746729 -21.739158,45.538657 -18.368713,70.094297 3.370445,24.55565 16.828784,47.5726 36.575513,62.5528 19.746728,14.9802 45.538653,21.73916 70.094296,18.36871 24.55565,-3.37044 47.5726,-16.82878 62.5528,-36.57551 14.9802,-19.74673 21.73916,-45.53865 18.36871,-70.0943 C 198.00457,90.904183 184.54623,67.887233 164.7995,52.907033 145.05277,37.926834 119.26085,31.167875 94.705201,34.53832 70.149554,37.908765 47.132604,51.367104 32.152404,71.113833 Z"
+              id="path527"
+            />
+          </g>
+        </svg>
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <!-- Created with Inkscape (http://www.inkscape.org/) -->
+        <svg
+          width="168.129mm"
+          height="166.4mm"
+          viewBox="0 0 194.55634 192.55634"
+          version="1.1"
+          id="SecondSVG"
+          inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+          sodipodi:docname="Circle.svg"
+          xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+          xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:svg="http://www.w3.org/2000/svg"
+        >
+          <sodipodi:namedview
+            id="namedview7"
+            pagecolor="#505050"
+            bordercolor="#ffffff"
+            borderopacity="1"
+            inkscape:pageshadow="0"
+            inkscape:pageopacity="0"
+            inkscape:pagecheckerboard="1"
+            inkscape:document-units="mm"
+            showgrid="false"
+            width="192.55634mm"
+            height="192.55634mm"
+            inkscape:zoom="0.46057099"
+            inkscape:cx="888.02815"
+            inkscape:cy="373.44949"
+            inkscape:window-width="1365"
+            inkscape:window-height="741"
+            inkscape:window-x="0"
+            inkscape:window-y="0"
+            inkscape:window-maximized="1"
+            inkscape:current-layer="layer1"
+          />
+          <defs id="defs2">
+            <inkscape:path-effect
+              effect="spiro"
+              id="path-effect529"
+              is_visible="true"
+              lpeversion="1"
+            />
+            <inkscape:path-effect
+              effect="spiro"
+              id="path-effect492"
+              is_visible="true"
+              lpeversion="1"
+            />
+            <inkscape:path-effect
+              effect="spiro"
+              id="path-effect455"
+              is_visible="true"
+              lpeversion="1"
+            />
+            <inkscape:path-effect
+              effect="spiro"
+              id="path-effect68"
+              is_visible="true"
+              lpeversion="1"
+            />
+          </defs>
+          <g
+            inkscape:label="Layer 1"
+            inkscape:groupmode="layer"
+            id="layer1"
+            transform="translate(-10.004016,-31.460533)"
+          >
+            <path
+              style="
+                fill: none;
+                /* Change this color if You want to change the color of the circle*/
+                stroke: #09abe0;
+                stroke-width: 2px;
+                stroke-linecap: butt;
+                stroke-linejoin: miter;
+                stroke-opacity: 1;
+              "
+              d="m 32.152404,71.113833 c -14.9802,19.746729 -21.739158,45.538657 -18.368713,70.094297 3.370445,24.55565 16.828784,47.5726 36.575513,62.5528 19.746728,14.9802 45.538653,21.73916 70.094296,18.36871 24.55565,-3.37044 47.5726,-16.82878 62.5528,-36.57551 14.9802,-19.74673 21.73916,-45.53865 18.36871,-70.0943 C 198.00457,90.904183 184.54623,67.887233 164.7995,52.907033 145.05277,37.926834 119.26085,31.167875 94.705201,34.53832 70.149554,37.908765 47.132604,51.367104 32.152404,71.113833 Z"
+              id="path527"
+            />
+          </g>
+        </svg>
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <!-- Created with Inkscape (http://www.inkscape.org/) -->
+        <svg
+          width="252mm"
+          height="249mm"
+          viewBox="0 0 194.55634 192.55634"
+          version="1.1"
+          id="ThirdSVG"
+          inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+          sodipodi:docname="Circle.svg"
+          xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+          xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:svg="http://www.w3.org/2000/svg"
+        >
+          <sodipodi:namedview
+            id="namedview7"
+            pagecolor="#505050"
+            bordercolor="#ffffff"
+            borderopacity="1"
+            inkscape:pageshadow="0"
+            inkscape:pageopacity="0"
+            inkscape:pagecheckerboard="1"
+            inkscape:document-units="mm"
+            showgrid="false"
+            width="192.55634mm"
+            height="192.55634mm"
+            inkscape:zoom="0.46057099"
+            inkscape:cx="888.02815"
+            inkscape:cy="373.44949"
+            inkscape:window-width="1365"
+            inkscape:window-height="741"
+            inkscape:window-x="0"
+            inkscape:window-y="0"
+            inkscape:window-maximized="1"
+            inkscape:current-layer="layer1"
+          />
+          <defs id="defs2">
+            <inkscape:path-effect
+              effect="spiro"
+              id="path-effect529"
+              is_visible="true"
+              lpeversion="1"
+            />
+            <inkscape:path-effect
+              effect="spiro"
+              id="path-effect492"
+              is_visible="true"
+              lpeversion="1"
+            />
+            <inkscape:path-effect
+              effect="spiro"
+              id="path-effect455"
+              is_visible="true"
+              lpeversion="1"
+            />
+            <inkscape:path-effect
+              effect="spiro"
+              id="path-effect68"
+              is_visible="true"
+              lpeversion="1"
+            />
+          </defs>
+          <g
+            inkscape:label="Layer 1"
+            inkscape:groupmode="layer"
+            id="layer1"
+            transform="translate(-10.004016,-31.460533)"
+          >
+            <path
+              style="
+                fill: none;
+                /* Change this color if You want to change the color of the circle*/
+                stroke: #ebef15;
+                stroke-width: 2px;
+                stroke-linecap: butt;
+                stroke-linejoin: miter;
+                stroke-opacity: 1;
+              "
+              d="m 32.152404,71.113833 c -14.9802,19.746729 -21.739158,45.538657 -18.368713,70.094297 3.370445,24.55565 16.828784,47.5726 36.575513,62.5528 19.746728,14.9802 45.538653,21.73916 70.094296,18.36871 24.55565,-3.37044 47.5726,-16.82878 62.5528,-36.57551 14.9802,-19.74673 21.73916,-45.53865 18.36871,-70.0943 C 198.00457,90.904183 184.54623,67.887233 164.7995,52.907033 145.05277,37.926834 119.26085,31.167875 94.705201,34.53832 70.149554,37.908765 47.132604,51.367104 32.152404,71.113833 Z"
+              id="path527"
+            />
+          </g>
+        </svg>
+      </div>
+      <div class="circle">
+        <div class="circleShadow"></div>
+        <h1><span>{{ carbon }} </span>tonnes</h1>
+        <!-- {% if found -->
+        <p>
+          Carbon emmissions must be kept under control, as it has started to become a huge global issue.You can use this calculator frequently to ensure proper carbon emmissions.<strong>See some recommendations <a href="#recom" class="lnk">here</a> </strong>to reduce your emmissions even more!
+        </p>
+        <!-- {%else
+        <p>
+            Sorry, your country was not found so, global average data was used
+          Carbon emmissions must be kept under control, as it has started to become a huge global issue.You can use this calculator frequently to ensure proper carbon emmissions.<strong>See some recommendations <a href="#recom" class="lnk">here</a> </strong>to reduce your emmissions even more!
+        </p> -->
+        <!-- {%endif
+        {% if carbon > 2.5  -->
+        <h2 class=".bigTextScore">
+          <span id="score">Not a Good</span> Score
+        </h2>
+        <!-- {% else 
+        <h2 class=".bigTextScore">
+          <span id="score">A Good</span> Score
+        </h2>
+        {% endif  -->
+      </div>
+    </main>
+    <section class="recommendations" id="recom">
+      <div class="list-container">
+        <h2 class="hText" style="color:white">Tips to decrease CO<sub>2</sub> emissions</h2>
+
+        <ul class="custom-list">
+            
+            <li>
+            <span class="list-icon">&#8227;</span> More recommendations
+          </li>
+          <li>
+            <span class="list-icon">&#8227;</span> Your contributions to carbon dioxide with electricity is {{ elec }} %
+          </li>
+          <li>
+            <span class="list-icon">&#8227;</span> Your contributions to carbon dioxide with air vehicles is {{ airV }} %
+          </li>
+          <li>
+            <span class="list-icon">&#8227;</span> Your contributions to carbon dioxide with land vehicles  for long distances is {{ landV }} %
+          </li>
+          <li>
+            <span class="list-icon">&#8227;</span> Your contributions to carbon dioxide with daily vehicles is {{ dailyV }} %
+          </li>
+          <li>
+            <span class="list-icon">&#8227;</span> Your contributions to carbon dioxide with natural gas is {{ gas }} %
+          </li>
+        </ul>
+      </div>
+    </section>
+
+  <script src="results.js" ></script>
+</html>
