@@ -61,7 +61,7 @@ Video presentation available - <a href="https://youtu.be/Wlp6DpsPWmw?feature=sha
     <b>Project Overview</b>
 </h2>
 
-Introducing the EcoSight  Analytics by our team for the GeeksforGeeks EcoTech Hackathon. Our project combines a carbon footprint calculator, real-time CO2 ppm analysis, emission reduction tips, and environmental news updates, empowering users to make informed decisions for a sustainable future. With interactive visualizations and a technology stack including Python, Django, and HTML,CSS,Javascript our project promotes greener lifestyles and fosters global environmental awareness.
+Introducing the EcoSight  Analytics by our team for the GeeksforGeeks EcoTech Hackathon. Our project combines a carbon footprint calculator, emission reduction tips, satellite image classification, air quality index data analysis and empowering users to make informed decisions for a sustainable future. With interactive visualizations and a technology stack including Python, Django, and HTML,CSS,Javascript our project promotes greener lifestyles and fosters global environmental awareness.
 
 <h2 id="project-overview">
     <b>Team Members</b>
