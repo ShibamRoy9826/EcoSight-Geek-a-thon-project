@@ -28,7 +28,7 @@
  <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="25" class="overviews"><b> Overview</b>
 </h2>
 This is a repository of us 3 team members on this great hackathon organised by GeeksForGeeks.This data science project has been an exciting journey that blends the power of data science with web development to create an innovative application that combines analytical insights with a user-friendly online interface. We are enthusiastic about showcasing our skills in our domains.We worked on data related to various fields related to environmental concerns such as Carbon footprint analysis, Satellite Image Classification and many more.
-
+Video presentation available - <a href="https://youtu.be/Wlp6DpsPWmw?feature=shared">here</a>
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"><br><br>
 <h2 id="meet_the_team">
 <img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="30px" alt="Git"/>&nbsp;<b>Meet The Team</b>
