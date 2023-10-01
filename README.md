@@ -193,6 +193,9 @@ Just extract the zip file and follow the instructions in the readme.txt
 ### 7.What are the future plans for this website?
 => We are going to maintain our website even after this hackathon ends, we already have plans like tourism recommendation system, social media updates on ecology, and many more! the updates would be coming soon be ready!
 
+### 8.How did we come up with this idea?
+=> We were really concerned about our environment, moreoever due to the beautful theme of the hackathon organised by GeeksForGeeks, we thought and found out the actual reasons for environmental degradation.Some Key factors are deforestation, and carbon emmissions. Our project exactly aims to spread awareness on that issue.
+
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 <h2 id="key-findings">
 <b>Key Findings </b>
