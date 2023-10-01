@@ -174,7 +174,7 @@ That's not all, we also analysed the air pollution index data from 2017 to 2022 
 => You are already in the correct place, you can view this overall repository to find out our work.
 
 ### 3.How can you run the Air Pollution Index model?
-=> Due to github restrictions we can't upload this file here as its quite large, but you can check the python notebook used to make it in the AirQuality folder, besides that you can download the model from here(TO BE UPDATED).
+=> Due to github restrictions we can't upload this file here as its quite large, but you can check the python notebook used to make it in the AirQuality folder, besides that you can download the model from <a href="https://drive.google.com/file/d/1uk9T_NtEy720BXKwOdFRbVcU8C0JGg9D/view?usp=drive_link">here</a>.
 Just extract the zip file and follow the instructions in the readme.txt
 
 ### 4.Which libraries and language are we using?
