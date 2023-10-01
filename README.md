@@ -44,7 +44,7 @@ Video presentation available - <a href="https://youtu.be/Wlp6DpsPWmw?feature=sha
     </li>
     <br>
     <li>
-        <strong>Front-end developer/ UI designer:</strong> Ankush roy - An integral member of the our team, known for his exceptional front-end development skills, mathematical acumen, and mastery of C++. His artistic eye elevates user experiences, while his passion for mathematics enriches data insights. With a strong grasp of C++, Ankush seamlessly integrates backend functionalities. His adaptability and innovation align seamlessly with our mission to fuse data science and web development for transformative solutions.
+        <strong>Front-end developer/ UI designer:</strong> Ankush roy - An integral member of the our team, known for his exceptional front-end development skills, mathematical acumen, and mastery of C++. His artistic eye elevates user experiences, while his passion for mathematics enriches data insights.
     </li>
     <li>
         <strong>Data Scientist :</strong> Swadhin Maharana  - A dynamic and accomplished individual who stands at the forefront of the exciting intersection of Data Science and Python programming. With an insatiable curiosity and a passion for unraveling complex patterns in data, Swadhin has established himself as a distinguished expert in his field.
@@ -156,6 +156,10 @@ print(preds)
 ```
 
 You can change the inputs to get your required results, and that's how simple it is to use our model!
+
+### Carbon Footprint Calculator
+Carbon Footprint calculator isn't an actual model, its based on data analysis, its basically automated data analysis.
+If you still want to check it out, you may do so by looking it the backend files, especially "views.py"
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 <h2 id="QNA">
